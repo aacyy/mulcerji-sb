@@ -1,0 +1,82 @@
+.km-numbers {
+	grid-column: main-start-section/main-end-section;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: 0rem;
+	width: 100%;
+	padding: 5rem 20rem;
+}
+.km-numbers-wrapper {
+	display: grid;
+	grid-column: 1/-1;
+	grid-template-columns: repeat(2, 1fr);
+
+	column-gap: 1rem;
+	justify-content: center;
+	row-gap: 5rem;
+}
+.km-numbers-item:nth-child(1) {
+}
+.km-numbers-item {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-items: center;
+	grid-gap: 0.5rem;
+}
+.km-text-up {
+	grid-column: 1/-1;
+}
+.km-text-mid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column: 2/4;
+	align-items: center;
+}
+
+.km-text-down {
+	grid-column: 3/-1;
+	width: 100%;
+	display: flex;
+	gap: 5px;
+	justify-items: end;
+	z-index: 10;
+	color: white;
+	margin-left: 20%;
+	margin-top: -30px;
+}
+
+.km-text-mid svg {
+	height: 80px !important;
+	stroke: var(--color-main);
+}
+
+.km-text-down h2 {
+	grid-column: 1/-1;
+	line-height: 1.1;
+	font-weight: 300;
+	font-size: 1.2rem;
+
+	width: 100%;
+}
+
+.km-numbers-item h3 {
+	font-size: 2.5rem;
+	color: var(--km-orange);
+}
+
+.km-number-item-bg {
+	text-transform: uppercase;
+	text-align: center;
+
+	color: rgba(174, 174, 174, 0.151);
+	font-size: 100px;
+	font-weight: 700;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 120px;
+	position: absolute;
+	left: 45%;
+	top: -20%;
+	grid-column: 1/-1;
+}

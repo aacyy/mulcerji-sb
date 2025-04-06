@@ -1,0 +1,83 @@
+.sb-section-two {
+	display: grid;
+	grid-column: main-start-section/main-end-section;
+	grid-template-columns: repeat(4, 1fr);
+
+	align-items: center;
+	z-index: 100000;
+}
+
+.sb-section-two-img {
+	height: 40vh;
+	grid-column: span 2;
+	display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(2, 1fr);
+}
+.sb-section-two-img-first {
+	background: url('/images/mulcer_one.jpg') no-repeat center center/cover;
+}
+.sb-section-two-img-second {
+	background: url('/images/mulcer_two.jpg') no-repeat center center/cover;
+}
+
+.sb-section-two-content {
+	padding-left: 15%;
+	padding-right: 15%;
+	grid-column: span 2;
+	display: grid;
+
+	align-self: center;
+}
+
+.sb-section-two-title {
+	display: flex;
+	gap: 1rem;
+}
+
+.sb-section-two-title h3:nth-child(1) {
+	color: var(--color-main);
+}
+
+.sb-section-two-title h3:nth-child(2) {
+	color: #6b6c6e;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+}
+
+.sb-section-two-subtitle {
+	height: min-content;
+}
+
+.sb-section-two-subtitle h1 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: white;
+	line-height: 3rem;
+}
+
+.sb-section-two-sum h4 {
+	color: white;
+	font-weight: 400;
+}
+.sb-section-two-text {
+	height: min-content;
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.sb-section-two-text p {
+	line-height: 2rem;
+	color: var(--color-text);
+	font-size: 0.9rem;
+}
+
+.sb-section-two-button {
+	margin-top: 2rem;
+}
+.sb-section-two-button button {
+	padding: 0.8rem 3rem;
+	background-color: transparent;
+	border: 1px solid var(--color-main);
+	color: white;
+}

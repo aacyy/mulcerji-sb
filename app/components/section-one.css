@@ -1,0 +1,79 @@
+.sb-section-one {
+	display: grid;
+	grid-column: main-start-section/main-end-section;
+	grid-template-columns: repeat(4, 1fr);
+
+	margin-top: 5rem;
+	z-index: 100000;
+}
+
+.sb-section-one-img {
+	background: url('/images/sb-bg.jpg') no-repeat center center/cover;
+	height: 80vh;
+	grid-column: span 2;
+}
+.sb-section-one-img img {
+	max-width: 100%;
+	display: block;
+	min-height: 500px;
+}
+
+.sb-section-one-content {
+	padding-right: 25%;
+	grid-column: span 2;
+	display: grid;
+	height: 50vh;
+	align-self: center;
+}
+
+.sb-section-one-title {
+	display: flex;
+	gap: 1rem;
+}
+
+.sb-section-one-title h3:nth-child(1) {
+	color: var(--color-main);
+}
+
+.sb-section-one-title h3:nth-child(2) {
+	color: #6b6c6e;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
+}
+
+.sb-section-one-subtitle {
+	height: min-content;
+}
+
+.sb-section-one-subtitle h1 {
+	font-size: 3rem;
+	font-weight: 300 !important;
+	color: white;
+	line-height: 4rem;
+}
+
+.sb-section-one-sum h4 {
+	color: white;
+	font-weight: 400;
+}
+.sb-section-one-text {
+	height: min-content;
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.sb-section-one-text p {
+	line-height: 2rem;
+	color: var(--color-text);
+	font-size: 0.9rem;
+}
+
+.sb-section-one-button {
+	margin-top: 2rem;
+}
+.sb-section-one-button button {
+	padding: 0.8rem 3rem;
+	background-color: transparent;
+	border: 1px solid var(--color-main);
+	color: white;
+}

@@ -1,0 +1,113 @@
+footer {
+	display: grid;
+	grid-column: full-start/full-end;
+	background-color: black;
+	grid-template-columns:
+		[full-start-section]2fr [main-start-section]repeat(12, 8rem)
+		[main-end-section] 2fr [full-end-section];
+}
+.sb-footer-container {
+	grid-column: main-start-section/main-end-section;
+
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.sb-footer-up {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: grid;
+	grid-column: 1/-1;
+}
+.sb-footer-up-items {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+}
+.sb-footer-up-items li {
+	list-style-type: none;
+	left: 0;
+	color: var(--color-text);
+}
+.sb-footer-up-items ul {
+	display: grid;
+	padding-top: 1rem;
+	margin-left: 0 !important;
+	padding-inline-start: 0;
+}
+
+.sb-footer-up-item-title h2 {
+	font-size: 1rem;
+	color: white;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+.sb-footer-mid {
+	grid-column: 1/-1;
+	border-top: 1px solid #383a3b;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #383a3b;
+}
+.sb-footer-mid-items {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	justify-content: center;
+	gap: 3rem;
+	align-items: center;
+
+	color: white;
+}
+.sb-footer-mid-item {
+}
+.sb-footer-mid-item-two {
+	display: flex;
+	grid-template-columns: repeat(2, 1fr);
+
+	grid-gap: 0.2rem;
+	align-items: center;
+	color: white;
+	justify-items: center;
+	justify-content: center;
+}
+.sb-footer-mid-item-two svg {
+	justify-self: end;
+	margin-right: 0.5rem;
+}
+.sb-footer-mid-item-social {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+.sb-footer-mid-item-social svg {
+	color: var(--color-main);
+}
+.sb-footer-mid-item-two-text {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.sb-footer-mid-item-two-text h2 {
+	font-weight: 400;
+	color: var(--color-text);
+}
+.sb-footer-mid-item-two-text div {
+	grid-column: 1/-1;
+}
+.sb-footer-low {
+	grid-column: 1/-1;
+	padding: 2rem;
+}
+.sb-footer-low-items {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	max-height: 100px;
+}
+.sb-footer-low-item img {
+	display: block;
+	max-width: 100%;
+	height: 50px;
+}
