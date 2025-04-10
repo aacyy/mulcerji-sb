@@ -10,6 +10,7 @@ import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
 import Footer from './components/Footer';
 import { useRef } from 'react';
+import SectionFive from './components/SectionFive';
 
 export default function Home() {
 	const featuresRef = useRef(null);
@@ -28,9 +29,7 @@ export default function Home() {
 					<li onClick={scrollToFeatures}>Tehnične lastnosti</li>
 					<li>Kontaktirajte nas</li>
 				</ul>
-				<ul className='center'>
-					<img src='/images/logo_white.png' alt='' />
-				</ul>
+				<ul className='center'></ul>
 				<ul className='right'>
 					<li>
 						<Facebook strokeWidth={1.5} />
@@ -51,6 +50,7 @@ export default function Home() {
 				<div className='sb-section-four' ref={modelsRef}>
 					<SectionFour />
 				</div>
+				<SectionFive />
 			</section>
 			<Footer />
 		</>

@@ -1,0 +1,275 @@
+.sb-section-five {
+	grid-column: main-start-section/main-end-section;
+	display: grid;
+	position: relative;
+	grid-template-columns: repeat(4, 1fr);
+	margin-bottom: 7rem;
+	margin-top: 5rem;
+}
+
+.sb-section-five-items {
+	display: grid;
+	position: relative;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: 4rem;
+
+	align-self: center !important;
+
+	grid-column: span 2;
+	height: 200px !important;
+}
+
+.sb-section-five-subtitle h1 {
+	font-size: 2rem;
+	color: white;
+	font-weight: 400;
+	line-height: 3rem;
+}
+.sb-section-five-subtitle h1:nth-child(1) {
+	font-weight: 600;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+.card-inner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: transform 0.8s ease-in-out;
+}
+
+.swiper-slide:hover .card-inner {
+	transform: rotateY(180deg);
+}
+
+.swiper-slide:hover .card-front h1 {
+	opacity: 0;
+}
+.card-front {
+	background-position: center !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+}
+
+.card-front {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backface-visibility: hidden;
+	border-radius: 0px;
+}
+.card-back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	backface-visibility: hidden;
+	border-radius: 0px;
+	color: white;
+}
+.card-front {
+	background: lightblue;
+}
+.card-back-text {
+	display: grid;
+	justify-content: center;
+	padding: 20%;
+	grid-gap: 1rem;
+}
+.card-back-text h2 {
+	font-size: 1.2rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.card-back-price {
+	display: flex;
+	gap: 10px;
+}
+.card-back-call h4 {
+	color: var(--color-main);
+	font-weight: 500;
+}
+.card-back {
+	background: rgb(0, 0, 0);
+	transform: rotateY(180deg);
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: lightblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: rotateY(0deg);
+	transition: transform 0.5s ease-in-out;
+}
+
+.overlay-text {
+	text-align: center;
+}
+
+.overlay-text h2 {
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+	color: var(--color-main);
+}
+
+.swiper {
+	grid-column: 1/-1;
+	width: 100%;
+	margin-top: 2rem;
+	height: min-content;
+}
+.sb-section-five .swiper-slide {
+	min-height: 60vh !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: grid;
+}
+.km-swiper-slide-text {
+	grid-column: 1/-1;
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	gap: 20px;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 100%;
+	padding: 1rem;
+}
+
+.km-swiper-slide-text div {
+	background-color: var(--color-main);
+	padding: 0.1rem 1rem;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.km-swiper-slide-text h1 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 3px;
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.sb-section-five .swiper-slide h3 {
+	color: white;
+
+	font-weight: 400;
+	font-size: 1.4rem;
+}
+
+.sb-section-five .swiper-wrapper {
+	margin-bottom: 5rem;
+}
+
+.swiper-pagination {
+	margin-top: 2rem;
+}
+
+.swiper-pagination-bullet:hover {
+	background-color: var(--color-main) !important;
+}
+
+.sb-section-five #container {
+	top: 20;
+
+	margin-bottom: -2rem;
+	grid-column: 1/-1;
+}
+
+.swiper-pagination-bullet {
+	align-items: center;
+
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 1rem;
+	color: white;
+	opacity: 1;
+	border-radius: 0px;
+	background: rgba(255, 255, 255, 0.079);
+}
+
+.swiper-pagination-bullet-active {
+	color: #fff;
+	background: var(--color-main);
+}
+
+.quote-box {
+	position: relative;
+	padding: 2rem;
+	font-size: 1.5rem;
+	text-align: center;
+	font-style: italic;
+	max-width: 600px;
+	margin: auto;
+	color: var(--color-text);
+}
+
+.quote-box::before,
+.quote-box::after {
+	content: '"';
+	font-size: 4rem;
+	color: #ccc;
+	position: absolute;
+	top: 0;
+	font-family: serif;
+}
+
+.quote-box::before {
+	left: 0;
+	transform: translate(-50%, -50%);
+}
+
+.quote-box::after {
+	right: 0;
+	transform: translate(50%, -50%);
+}
+.sb-section-five-item {
+}
+
+.sb-quote {
+	font-size: 4rem;
+	position: absolute;
+}
+.sb-quote-one {
+	left: 2%;
+}
+
+.sb-quote-two {
+	bottom: 0;
+	right: 2%;
+}
+
+.quote-name {
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+}
+.quote-name p {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: white;
+}

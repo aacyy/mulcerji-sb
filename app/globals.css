@@ -13,6 +13,7 @@
 	--color-main: #d80000;
 	--color-title: #6b6c6e;
 	--color-text: #aeaeae;
+	scroll-behavior: smooth !important;
 }
 
 body {

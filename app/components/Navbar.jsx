@@ -10,9 +10,7 @@ const Navbar = () => {
 				<li>Tehnične lastnosti</li>
 				<li>Kontaktirajte nas</li>
 			</ul>
-			<ul className='center'>
-				<img src='/images/logo_white.png' alt='' />
-			</ul>
+			<ul className='center'></ul>
 			<ul className='right'>
 				<li>
 					<Facebook strokeWidth={1.5} />

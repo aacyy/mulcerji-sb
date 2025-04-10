@@ -6,6 +6,9 @@ const Header = () => {
 			<div className='sb-header-background'></div>
 			<div className='sb-header-mid'>
 				<div className='sb-header-mid-text'>
+					<div className='sb-header-logo'>
+						<img src='/images/logo_white.png' alt='' />
+					</div>
 					<h1>Daljinsko vodeni mulčerji</h1>
 					<h4>+386 555 666</h4>
 					<h4>mulcerji@kuser-mont.com</h4>
