@@ -14,7 +14,6 @@ const Header = () => {
 					<h4>mulcerji@kuser-mont.com</h4>
 				</div>
 				<div className='sb-header-mid-buttons'>
-					<button>Preglejte</button>
 					<button>Pokličite nas</button>
 				</div>
 			</div>

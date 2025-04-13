@@ -5,6 +5,7 @@ const SectionOne = ({ refref }) => {
 	return (
 		<>
 			<div className='sb-section-one-content'>
+				<img src='/images/logo_white.png' alt='' />
 				<div className='sb-section-one-title'>
 					<h3>01</h3>
 					<h3>O kosilnici</h3>

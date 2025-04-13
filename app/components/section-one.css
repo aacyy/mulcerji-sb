@@ -7,6 +7,8 @@
 	z-index: 100000;
 }
 
+.sb-section-one-content {
+}
 .sb-section-one-img {
 	background: url('/images/sb-bg.jpg') no-repeat center center/cover;
 	height: 80vh;
@@ -24,8 +26,15 @@
 	display: grid;
 	height: 50vh;
 	align-self: center;
+	position: relative;
 }
-
+.sb-section-one-content img {
+	position: absolute;
+	top: 0%;
+	right: 20%;
+	opacity: 0.05;
+	height: 40%;
+}
 .sb-section-one-title {
 	display: flex;
 	gap: 1rem;

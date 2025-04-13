@@ -29,7 +29,9 @@ export default function Home() {
 					<li onClick={scrollToFeatures}>Tehnične lastnosti</li>
 					<li>Kontaktirajte nas</li>
 				</ul>
-				<ul className='center'></ul>
+				<ul className='center'>
+					<h1>sb-mulcerji.si</h1>
+				</ul>
 				<ul className='right'>
 					<li>
 						<Facebook strokeWidth={1.5} />

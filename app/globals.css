@@ -16,6 +16,10 @@
 	scroll-behavior: smooth !important;
 }
 
+html {
+	scroll-behavior: smooth !important;
+	--scroll-behavior: smooth !important;
+}
 body {
 	display: grid;
 	grid-template-columns: [full-start]2fr [main-start]repeat(12, 9rem) [main-end] 2fr [full-end];

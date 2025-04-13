@@ -2,7 +2,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
-import { CircleEllipsis } from 'lucide-react';
+import { CircleEllipsis, CircleSmall } from 'lucide-react';
 
 // import Swiper and modules styles
 import 'swiper/css';
@@ -67,29 +67,83 @@ const SectionFour = () => {
 						>
 							<div className='km-swiper-slide-text'>
 								<div>1</div>
-								<h1>Mulčer penetrator</h1>
+								<h1>Mulčer KM-55</h1>
 							</div>
 							<CircleEllipsis strokeWidth={2} color='white' size={64} />
 						</div>
 						<div class='card-back'>
 							<div className='card-back-text'>
 								<div className='card-back-text-title'>
-									<h2>Mulčer penetrator</h2>
+									<h2>Mulčer KM-55</h2>
 									<div className='card-back-price'>
-										<h4>Cena</h4>
-										<p>1.2000 eur</p>
+										<h4>Goseničar</h4>
 									</div>
-								</div>
-								<div className='card-back-text-content'>
 									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Mollitia laborum aliquam ipsam velit, recusandae neque magni
-										minima ullam pariatur obcaecati.
+										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+										uporabnike, ki imajo površino košnje do 2000m2.
 									</p>
 								</div>
-								<div className='card-back-call'>
-									<h4>Za več informacij nas pokličite.</h4>
+								<div className='card-back-text-content'>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>2 hitrosti elektro-motorjev</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Maximalen domet daljinskega vodenja nad 200m</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
 								</div>
+							</div>
+							<div className='card-back-call'>
+								<h4>Za več informacij nas pokličite.</h4>
 							</div>
 						</div>
 					</div>
@@ -111,22 +165,76 @@ const SectionFour = () => {
 						<div class='card-back'>
 							<div className='card-back-text'>
 								<div className='card-back-text-title'>
-									<h2>Mulčer penetrator</h2>
+									<h2>Mulčer KM-55</h2>
 									<div className='card-back-price'>
-										<h4>Cena</h4>
-										<p>1.2000 eur</p>
+										<h4>Goseničar</h4>
 									</div>
-								</div>
-								<div className='card-back-text-content'>
 									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Mollitia laborum aliquam ipsam velit, recusandae neque magni
-										minima ullam pariatur obcaecati.
+										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+										uporabnike, ki imajo površino košnje do 2000m2.
 									</p>
 								</div>
-								<div className='card-back-call'>
-									<h4>Za več informacij nas pokličite.</h4>
+								<div className='card-back-text-content'>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>2 hitrosti elektro-motorjev</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Maximalen domet daljinskega vodenja nad 200m</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
 								</div>
+							</div>
+							<div className='card-back-call'>
+								<h4>Za več informacij nas pokličite.</h4>
 							</div>
 						</div>
 					</div>
@@ -148,22 +256,76 @@ const SectionFour = () => {
 						<div class='card-back'>
 							<div className='card-back-text'>
 								<div className='card-back-text-title'>
-									<h2>Mulčer penetrator</h2>
+									<h2>Mulčer KM-55</h2>
 									<div className='card-back-price'>
-										<h4>Cena</h4>
-										<p>1.2000 eur</p>
+										<h4>Goseničar</h4>
 									</div>
-								</div>
-								<div className='card-back-text-content'>
 									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Mollitia laborum aliquam ipsam velit, recusandae neque magni
-										minima ullam pariatur obcaecati.
+										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+										uporabnike, ki imajo površino košnje do 2000m2.
 									</p>
 								</div>
-								<div className='card-back-call'>
-									<h4>Za več informacij nas pokličite.</h4>
+								<div className='card-back-text-content'>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>2 hitrosti elektro-motorjev</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Maximalen domet daljinskega vodenja nad 200m</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
 								</div>
+							</div>
+							<div className='card-back-call'>
+								<h4>Za več informacij nas pokličite.</h4>
 							</div>
 						</div>
 					</div>
@@ -185,22 +347,76 @@ const SectionFour = () => {
 						<div class='card-back'>
 							<div className='card-back-text'>
 								<div className='card-back-text-title'>
-									<h2>Mulčer penetrator</h2>
+									<h2>Mulčer KM-55</h2>
 									<div className='card-back-price'>
-										<h4>Cena</h4>
-										<p>1.2000 eur</p>
+										<h4>Goseničar</h4>
 									</div>
-								</div>
-								<div className='card-back-text-content'>
 									<p>
-										Lorem ipsum dolor sit amet consectetur adipisicing elit.
-										Mollitia laborum aliquam ipsam velit, recusandae neque magni
-										minima ullam pariatur obcaecati.
+										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+										uporabnike, ki imajo površino košnje do 2000m2.
 									</p>
 								</div>
-								<div className='card-back-call'>
-									<h4>Za več informacij nas pokličite.</h4>
+								<div className='card-back-text-content'>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>2 hitrosti elektro-motorjev</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Maximalen domet daljinskega vodenja nad 200m</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
+									<div className='card-back-text-content-item'>
+										<div className='card-back-text-icon'>
+											<CircleSmall color='#d80000' />
+										</div>
+										<div className='card-back-text-item-text'>
+											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
+										</div>
+									</div>
 								</div>
+							</div>
+							<div className='card-back-call'>
+								<h4>Za več informacij nas pokličite.</h4>
 							</div>
 						</div>
 					</div>

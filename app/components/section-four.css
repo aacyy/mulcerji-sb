@@ -38,6 +38,7 @@
 	height: 100%;
 	position: relative;
 	transform-style: preserve-3d;
+
 	transition: transform 0.8s ease-in-out;
 }
 
@@ -73,7 +74,7 @@
 	top: 0;
 	left: 0;
 	display: grid;
-	align-items: center;
+
 	justify-content: center;
 	backface-visibility: hidden;
 	border-radius: 0px;
@@ -84,25 +85,58 @@
 }
 .card-back-text {
 	display: grid;
-	justify-content: center;
-	padding: 20%;
-	grid-gap: 1rem;
+
+	padding: 2% 10% !important;
+	grid-gap: 1.2rem;
+}
+.card-back-text-content {
+	grid-column: 1/-1;
+	display: grid;
+	grid-gap: 0.2rem;
+}
+.card-back-text-content-item {
+	display: flex;
+	gap: 10px;
+	align-items: center !important;
+}
+.card-back-text-item-text {
+	line-height: 1rem;
 }
 .card-back-text h2 {
 	font-size: 1.2rem;
 	text-align: center;
 	margin-bottom: 1rem;
 }
+
 .card-back-price {
 	display: flex;
-	gap: 10px;
+	gap: 8px;
+}
+.card-back-text-icon {
+	display: grid;
+	align-items: center;
+}
+.card-back-price p {
+	color: var(--color-text) !important;
+	margin-bottom: 1rem;
+}
+.card-back-price h4 {
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	color: var(--color-main);
+}
+.card-back-call {
+	justify-self: end;
+	padding-right: 10%;
 }
 .card-back-call h4 {
 	color: var(--color-main);
 	font-weight: 500;
 }
 .card-back {
-	background: rgb(0, 0, 0);
+	background: yellow;
 	transform: rotateY(180deg);
 }
 .overlay {
@@ -167,6 +201,7 @@
 	font-weight: 600;
 	letter-spacing: 3px;
 	opacity: 1;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.501) !important;
 	transition: opacity 0.5s ease-in-out;
 }
 
