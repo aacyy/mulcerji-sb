@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import styles from './page.module.css';
-import { Facebook, Instagram } from 'lucide-react';
+import { Facebook, Instagram, Youtube } from 'lucide-react';
 import './components/header.css';
 import Header from './components/Header';
 import SectionOne from './components/SectionOne';
@@ -34,10 +34,13 @@ export default function Home() {
 				</ul>
 				<ul className='right'>
 					<li>
-						<Facebook strokeWidth={1.5} />
+						<Facebook strokeWidth={1.5} size={20} />
 					</li>
 					<li>
-						<Instagram strokeWidth={1.5} />
+						<Instagram strokeWidth={1.5} size={20} />
+					</li>
+					<li>
+						<Youtube strokeWidth={1.5} size={24} />
 					</li>
 				</ul>
 			</nav>
