@@ -32,9 +32,6 @@ const SectionOne = ({ refref }) => {
 						consequatur fuga?
 					</p>
 				</div>
-				<div className='sb-section-one-button'>
-					<button>Pokličite nas</button>
-				</div>
 			</div>
 			<div className='sb-section-one-img'></div>
 		</>

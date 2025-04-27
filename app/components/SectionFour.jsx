@@ -31,397 +31,444 @@ const SectionFour = () => {
 					<h1>mulčerjev</h1>
 				</div>
 			</div>
-			<Swiper
-				autoplay={true}
-				pagination={pagination}
-				breakpoints={{
-					400: {
-						slidesPerView: 1,
-						spaceBetween: 10,
-					},
-					600: {
-						slidesPerView: 2,
-						spaceBetween: 10,
-					},
-					700: {
-						slidesPerView: 2,
-						spaceBetween: 10,
-					},
-					1200: {
-						slidesPerView: 2,
-						spaceBetween: 10,
-					},
-				}}
-				loop={true}
-				grabCursor={true}
-				modules={[Pagination]}
-				className='mySwiper'
-			>
-				<SwiperSlide>
-					<div class='card-inner'>
-						<div
-							class='card-front'
-							style={{
-								backgroundImage: 'url(/images/mulcer_one.jpg)',
-							}}
-						>
-							<div className='km-swiper-slide-text'>
-								<div>1</div>
-								<h1>Mulčer KM-55</h1>
+			<div className='sb-section-four-items-final'>
+				<div className='sb-section-four-item'>
+					<div className='sb-section-four-item-title '>
+						<div className='sb-section-four-box'>1</div>
+						<h1>Mulčer 505</h1>
+					</div>
+					<div className='sb-section-four-item-box'>
+						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-summary'>
+								<p>
+									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+									uporabnike, ki imajo površino košnje do 2000m2.
+								</p>
 							</div>
-							<CircleEllipsis strokeWidth={2} color='white' size={64} />
-						</div>
-						<div class='card-back'>
-							<div className='card-back-text'>
-								<div className='card-back-text-title'>
-									<h2>Mulčer KM-55</h2>
-									<div className='card-back-price'>
-										<h4>Goseničar</h4>
+							<div className='sb-section-four-item-list'>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
 									<p>
-										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
-										uporabnike, ki imajo površino košnje do 2000m2.
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
 									</p>
 								</div>
-								<div className='card-back-text-content'>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>2 hitrosti elektro-motorjev</p>
-										</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Maximalen domet daljinskega vodenja nad 200m</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
 								</div>
 							</div>
-							<div className='card-back-call'>
-								<h4>Za več informacij nas pokličite.</h4>
+						</div>
+						<div className='sb-section-four-item-img img-one'></div>
+					</div>
+				</div>
+				<div className='sb-section-four-item'>
+					<div className='sb-section-four-item-title sb-section-four-item-title-right'>
+						<h1>Mulčer 123</h1>
+						<div className='sb-section-four-box'>2</div>
+					</div>
+					<div className='sb-section-four-item-box'>
+						<div className='sb-section-four-item-img img-two'></div>
+						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-summary'>
+								<p>
+									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+									uporabnike, ki imajo površino košnje do 2000m2.
+								</p>
+							</div>
+							<div className='sb-section-four-item-list'>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</SwiperSlide>
-				<SwiperSlide>
-					<div class='card-inner'>
-						<div
-							class='card-front'
-							style={{
-								backgroundImage: 'url(/images/mulcer_two.jpg)',
-							}}
-						>
-							<div className='km-swiper-slide-text'>
-								<div>2</div>
-								<h1>Mulčer dominator</h1>
+				</div>
+				<div className='sb-section-four-item'>
+					<div className='sb-section-four-item-title '>
+						<div className='sb-section-four-box'>3</div>
+						<h1>Mulčer 444</h1>
+					</div>
+					<div className='sb-section-four-item-box'>
+						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-summary'>
+								<p>
+									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+									uporabnike, ki imajo površino košnje do 2000m2.
+								</p>
 							</div>
-							<CircleEllipsis strokeWidth={2} color='white' size={64} />
-						</div>
-						<div class='card-back'>
-							<div className='card-back-text'>
-								<div className='card-back-text-title'>
-									<h2>Mulčer KM-55</h2>
-									<div className='card-back-price'>
-										<h4>Goseničar</h4>
+							<div className='sb-section-four-item-list'>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
 									<p>
-										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
-										uporabnike, ki imajo površino košnje do 2000m2.
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
 									</p>
 								</div>
-								<div className='card-back-text-content'>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>2 hitrosti elektro-motorjev</p>
-										</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Maximalen domet daljinskega vodenja nad 200m</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
 									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
 								</div>
 							</div>
-							<div className='card-back-call'>
-								<h4>Za več informacij nas pokličite.</h4>
+						</div>
+						<div className='sb-section-four-item-img img-three'></div>
+					</div>
+				</div>
+				<div className='sb-section-four-item'>
+					<div className='sb-section-four-item-title sb-section-four-item-title-right'>
+						<h1>Mulčer 566666</h1>
+						<div className='sb-section-four-box'>4</div>
+					</div>
+					<div className='sb-section-four-item-box'>
+						<div className='sb-section-four-item-img img-four'></div>
+						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-summary'>
+								<p>
+									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
+									uporabnike, ki imajo površino košnje do 2000m2.
+								</p>
+							</div>
+							<div className='sb-section-four-item-list'>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat, a.
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
+								</div>
+								<div className='sb-section-four-item-content-feature'>
+									<div className='sb-section-four-icon'>
+										<CircleSmall />
+									</div>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Repellat,
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</SwiperSlide>
-				<SwiperSlide>
-					<div class='card-inner'>
-						<div
-							class='card-front'
-							style={{
-								backgroundImage: 'url(/images/mulcer_three.jpg)',
-							}}
-						>
-							<div className='km-swiper-slide-text'>
-								<div>3</div>
-								<h1>Mulčer masturbator</h1>
-							</div>
-							<CircleEllipsis strokeWidth={2} color='white' size={64} />
-						</div>
-						<div class='card-back'>
-							<div className='card-back-text'>
-								<div className='card-back-text-title'>
-									<h2>Mulčer KM-55</h2>
-									<div className='card-back-price'>
-										<h4>Goseničar</h4>
-									</div>
-									<p>
-										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
-										uporabnike, ki imajo površino košnje do 2000m2.
-									</p>
-								</div>
-								<div className='card-back-text-content'>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>2 hitrosti elektro-motorjev</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Maximalen domet daljinskega vodenja nad 200m</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className='card-back-call'>
-								<h4>Za več informacij nas pokličite.</h4>
-							</div>
-						</div>
-					</div>
-				</SwiperSlide>
-				<SwiperSlide>
-					<div class='card-inner'>
-						<div
-							class='card-front'
-							style={{
-								backgroundImage: 'url(/images/mulcer_four.jpg)',
-							}}
-						>
-							<div className='km-swiper-slide-text'>
-								<div>4</div>
-								<h1>Mulčer terminator</h1>
-							</div>
-							<CircleEllipsis strokeWidth={2} color='white' size={64} />
-						</div>
-						<div class='card-back'>
-							<div className='card-back-text'>
-								<div className='card-back-text-title'>
-									<h2>Mulčer KM-55</h2>
-									<div className='card-back-price'>
-										<h4>Goseničar</h4>
-									</div>
-									<p>
-										Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
-										uporabnike, ki imajo površino košnje do 2000m2.
-									</p>
-								</div>
-								<div className='card-back-text-content'>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>2 hitrosti elektro-motorjev</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Maximalen domet daljinskega vodenja nad 200m</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-									<div className='card-back-text-content-item'>
-										<div className='card-back-text-icon'>
-											<CircleSmall color='#d80000' />
-										</div>
-										<div className='card-back-text-item-text'>
-											<p>Visoko zmogljiv 224 ccm bencinski agregat 9hp</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className='card-back-call'>
-								<h4>Za več informacij nas pokličite.</h4>
-							</div>
-						</div>
-					</div>
-				</SwiperSlide>
-			</Swiper>
+				</div>
+			</div>
 		</>
 	);
 };

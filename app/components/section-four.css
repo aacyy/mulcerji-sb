@@ -249,3 +249,90 @@
 	color: #fff;
 	background: var(--color-main);
 }
+
+.sb-section-four-items-final {
+	display: grid;
+	grid-column: 1/-1;
+	margin-top: 2rem;
+	grid-gap: 4rem;
+}
+.sb-section-four-item {
+}
+
+.sb-section-four-item-title {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	color: white;
+	margin-bottom: 1rem;
+}
+.sb-section-four-box {
+	padding: 0rem 1rem;
+	color: white;
+	background-color: var(--color-main);
+	font-size: 1.2rem;
+	font-weight: 700;
+	display: grid;
+}
+.sb-section-four-item-title h1 {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.sb-section-four-item-box {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 0.5rem;
+
+	height: 60vh;
+}
+.sb-section-four-item-content {
+	background-color: rgb(14, 14, 14);
+	color: white;
+	padding: 2rem;
+	align-items: center;
+}
+.sb-section-four-item-summary {
+	padding: 2rem;
+	font-weight: 600;
+}
+.sb-section-four-item-list {
+	padding: 0.5rem 0rem 2rem 2rem;
+}
+.sb-section-four-item-content-feature {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.sb-section-four-item-content-feature p {
+	color: rgb(225, 225, 225);
+}
+.sb-section-four-icon {
+	display: flex;
+	color: var(--color-main) !important;
+}
+
+.sb-section-four-item-img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+	display: block;
+}
+.img-one {
+	background-image: url('/images/mulcer_one.jpg');
+}
+.img-two {
+	background-image: url('/images/mulcer_two.jpg');
+}
+.img-three {
+	background-image: url('/images/mulcer_three.jpg');
+}
+.img-four {
+	background-image: url('/images/mulcer_four.jpg');
+}
+
+.sb-section-four-item-title-right {
+	justify-self: end !important;
+}
