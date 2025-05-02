@@ -33,12 +33,12 @@ const SectionFour = () => {
 			</div>
 			<div className='sb-section-four-items-final'>
 				<div className='sb-section-four-item'>
-					<div className='sb-section-four-item-title '>
-						<div className='sb-section-four-box'>1</div>
-						<h1>Mulčer 505</h1>
-					</div>
 					<div className='sb-section-four-item-box'>
 						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-title '>
+								<div className='sb-section-four-box'>1</div>
+								<h1>Mulčer 505</h1>
+							</div>
 							<div className='sb-section-four-item-summary'>
 								<p>
 									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
@@ -142,13 +142,13 @@ const SectionFour = () => {
 					</div>
 				</div>
 				<div className='sb-section-four-item'>
-					<div className='sb-section-four-item-title sb-section-four-item-title-right'>
-						<h1>Mulčer 123</h1>
-						<div className='sb-section-four-box'>2</div>
-					</div>
 					<div className='sb-section-four-item-box'>
 						<div className='sb-section-four-item-img img-two'></div>
 						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-title sb-section-four-item-title-right'>
+								<h1>Mulčer 123</h1>
+								<div className='sb-section-four-box'>2</div>
+							</div>
 							<div className='sb-section-four-item-summary'>
 								<p>
 									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
@@ -251,12 +251,12 @@ const SectionFour = () => {
 					</div>
 				</div>
 				<div className='sb-section-four-item'>
-					<div className='sb-section-four-item-title '>
-						<div className='sb-section-four-box'>3</div>
-						<h1>Mulčer 444</h1>
-					</div>
 					<div className='sb-section-four-item-box'>
 						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-title '>
+								<div className='sb-section-four-box'>3</div>
+								<h1>Mulčer 444</h1>
+							</div>
 							<div className='sb-section-four-item-summary'>
 								<p>
 									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
@@ -360,13 +360,13 @@ const SectionFour = () => {
 					</div>
 				</div>
 				<div className='sb-section-four-item'>
-					<div className='sb-section-four-item-title sb-section-four-item-title-right'>
-						<h1>Mulčer 566666</h1>
-						<div className='sb-section-four-box'>4</div>
-					</div>
 					<div className='sb-section-four-item-box'>
 						<div className='sb-section-four-item-img img-four'></div>
 						<div className='sb-section-four-item-content'>
+							<div className='sb-section-four-item-title sb-section-four-item-title-right'>
+								<h1>Mulčer 566666</h1>
+								<div className='sb-section-four-box'>4</div>
+							</div>
 							<div className='sb-section-four-item-summary'>
 								<p>
 									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.

@@ -11,8 +11,8 @@
 .sb-section-one-content {
 }
 .sb-section-one-img {
-	background: url('/images/sb-bg.jpg') no-repeat center center/cover;
-	height: 80vh;
+	background: url('/images/mulcer_four.jpg') no-repeat center center/cover;
+	height: 70vh;
 	grid-column: span 2;
 }
 .sb-section-one-img img {

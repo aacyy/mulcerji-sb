@@ -254,7 +254,7 @@
 	display: grid;
 	grid-column: 1/-1;
 	margin-top: 2rem;
-	grid-gap: 4rem;
+	grid-gap: 5rem;
 }
 .sb-section-four-item {
 }
@@ -264,10 +264,11 @@
 	gap: 10px;
 	align-items: center;
 	color: white;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
+	padding: 0rem 2rem;
 }
 .sb-section-four-box {
-	padding: 0rem 1rem;
+	padding: 0rem 0.8rem;
 	color: white;
 	background-color: var(--color-main);
 	font-size: 1.2rem;
@@ -282,7 +283,6 @@
 .sb-section-four-item-box {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 0.5rem;
 
 	height: 60vh;
 }
@@ -335,4 +335,5 @@
 
 .sb-section-four-item-title-right {
 	justify-self: end !important;
+	margin-right: 1rem;
 }
