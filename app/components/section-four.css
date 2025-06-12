@@ -3,6 +3,7 @@
 	display: grid;
 	position: relative;
 	margin-bottom: 5rem;
+	margin-top: 5rem;
 }
 
 .sb-section-four-items {
@@ -287,7 +288,7 @@
 	height: 60vh;
 }
 .sb-section-four-item-content {
-	background-color: rgb(14, 14, 14);
+	background-color: rgba(14, 14, 14, 0.427);
 	color: white;
 	padding: 2rem;
 	align-items: center;
@@ -336,4 +337,9 @@
 .sb-section-four-item-title-right {
 	justify-self: end !important;
 	margin-right: 1rem;
+}
+
+.sb-section-four-item-summary h2 {
+	text-transform: uppercase;
+	font-size: 1.5rem;
 }

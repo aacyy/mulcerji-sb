@@ -8,7 +8,7 @@ const SectionOne = ({ refref }) => {
 				<img src='/images/logo_white.png' alt='' />
 				<div className='sb-section-one-title'>
 					<h3>01</h3>
-					<h3>O kosilnici</h3>
+					<h3>Mulčerji</h3>
 				</div>
 				<div className='sb-section-one-subtitle'>
 					<h1>Mulčer</h1>

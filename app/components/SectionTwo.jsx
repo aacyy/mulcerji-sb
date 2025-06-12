@@ -1,5 +1,6 @@
 import React from 'react';
 import './section-two.css';
+import { Drill, MessageCircleQuestion, ShieldCheck, Truck } from 'lucide-react';
 
 const SectionTwo = () => {
 	return (
@@ -11,24 +12,47 @@ const SectionTwo = () => {
 			<div className='sb-section-two-content'>
 				<div className='sb-section-two-title'>
 					<h3>02</h3>
-					<h3>Tehnične lastnosti</h3>
+					<h3>Storitve</h3>
 				</div>
 				<div className='sb-section-two-subtitle'>
-					<h1>Kaj so</h1>
-					<h1>naše prednosti?</h1>
+					<h1>Ob nakupu mulčerja</h1>
+					<h1>vam zagotovimo</h1>
 				</div>
-				<div className='sb-section-two-sum'>
-					<h4>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-						assumenda.
-					</h4>
-				</div>
-				<div className='sb-section-two-text'>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, sit?
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
-						repellendus.
-					</p>
+				<div className='sb-section-two-box'>
+					<div className='sb-section-two-item'>
+						<div className='sb-section-two-item-img'>
+							<Drill strokeWidth={1.2} size={35} />
+						</div>
+						<div className='sb-section-two-item-text'>
+							{' '}
+							<p>Servis</p>
+						</div>
+					</div>
+					<div className='sb-section-two-item'>
+						<div className='sb-section-two-item-img'>
+							<ShieldCheck strokeWidth={1.2} size={35} />
+						</div>
+						<div className='sb-section-two-item-text'>
+							{' '}
+							<p>Garancija</p>
+						</div>
+					</div>
+					<div className='sb-section-two-item'>
+						<div className='sb-section-two-item-img'>
+							<Truck strokeWidth={1.2} size={35} />
+						</div>
+						<div className='sb-section-two-item-text'>
+							<p>Prevoz</p>
+						</div>
+					</div>
+					<div className='sb-section-two-item'>
+						<div className='sb-section-two-item-img'>
+							<MessageCircleQuestion strokeWidth={1.2} size={35} />
+						</div>
+						<div className='sb-section-two-item-text'>
+							<p>Svetovanje</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

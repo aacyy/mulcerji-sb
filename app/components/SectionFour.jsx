@@ -40,10 +40,7 @@ const SectionFour = () => {
 								<h1>Mulčer 505</h1>
 							</div>
 							<div className='sb-section-four-item-summary'>
-								<p>
-									Daljinsko vodena kosilnica za manj zahtevne uporabnike oz.
-									uporabnike, ki imajo površino košnje do 2000m2.
-								</p>
+								<h2>Goseničar</h2>
 							</div>
 							<div className='sb-section-four-item-list'>
 								<div className='sb-section-four-item-content-feature'>
@@ -89,51 +86,6 @@ const SectionFour = () => {
 									<p>
 										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 										Repellat, a.
-									</p>
-								</div>
-								<div className='sb-section-four-item-content-feature'>
-									<div className='sb-section-four-icon'>
-										<CircleSmall />
-									</div>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-										Repellat, a.
-									</p>
-								</div>
-								<div className='sb-section-four-item-content-feature'>
-									<div className='sb-section-four-icon'>
-										<CircleSmall />
-									</div>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-										Repellat, a.
-									</p>
-								</div>
-								<div className='sb-section-four-item-content-feature'>
-									<div className='sb-section-four-icon'>
-										<CircleSmall />
-									</div>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-										Repellat, a.
-									</p>
-								</div>
-								<div className='sb-section-four-item-content-feature'>
-									<div className='sb-section-four-icon'>
-										<CircleSmall />
-									</div>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-										Repellat,
-									</p>
-								</div>
-								<div className='sb-section-four-item-content-feature'>
-									<div className='sb-section-four-icon'>
-										<CircleSmall />
-									</div>
-									<p>
-										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-										Repellat,
 									</p>
 								</div>
 							</div>

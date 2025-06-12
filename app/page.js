@@ -11,6 +11,7 @@ import SectionFour from './components/SectionFour';
 import Footer from './components/Footer';
 import { useRef } from 'react';
 import SectionFive from './components/SectionFive';
+import SectionImg from './components/SectionImg';
 
 export default function Home() {
 	const featuresRef = useRef(null);
@@ -30,17 +31,19 @@ export default function Home() {
 					<li>Kontaktirajte nas</li>
 				</ul>
 				<ul className='center'>
-					<h1>sb-mulcerji.si</h1>
+					<div className='sb-header-logo'>
+						<img src='/images/logo_white.png' alt='' />
+					</div>
 				</ul>
 				<ul className='right'>
 					<li>
-						<Facebook strokeWidth={1.5} size={20} />
+						<Facebook strokeWidth={1.5} size={26} />
 					</li>
 					<li>
-						<Instagram strokeWidth={1.5} size={20} />
+						<Instagram strokeWidth={1.5} size={26} />
 					</li>
 					<li>
-						<Youtube strokeWidth={1.5} size={24} />
+						<Youtube strokeWidth={1.5} size={30} />
 					</li>
 				</ul>
 			</nav>
@@ -51,7 +54,7 @@ export default function Home() {
 				</div>
 
 				<SectionTwo />
-				<SectionThree />
+				<SectionImg />
 				<div className='sb-section-four' ref={modelsRef}>
 					<SectionFour />
 				</div>

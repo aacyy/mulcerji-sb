@@ -13,7 +13,7 @@ const Navbar = () => {
 			<ul className='center'></ul>
 			<ul className='right'>
 				<li>
-					<Facebook strokeWidth={1.5} />
+					<Facebook strokeWidth={3} />
 				</li>
 				<li>
 					<Instagram strokeWidth={1.5} />
