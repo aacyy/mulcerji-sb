@@ -31,9 +31,7 @@ export default function Home() {
 					<li>Kontaktirajte nas</li>
 				</ul>
 				<ul className='center'>
-					<div className='sb-header-logo'>
-						<img src='/images/logo_white.png' alt='' />
-					</div>
+					<img src='/images/logo_white.png' alt='' />
 				</ul>
 				<ul className='right'>
 					<li>
