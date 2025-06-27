@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import { useRef } from 'react';
 import SectionFive from './components/SectionFive';
 import SectionImg from './components/SectionImg';
+import SectionModels from './components/SectionModels';
 
 export default function Home() {
 	const featuresRef = useRef(null);
@@ -53,8 +54,8 @@ export default function Home() {
 
 				<SectionTwo />
 				<SectionImg />
-				<div className='sb-section-four' ref={modelsRef}>
-					<SectionFour />
+				<div className='sb-section-models' ref={modelsRef}>
+					<SectionModels />
 				</div>
 				<SectionFive />
 			</section>

@@ -1,0 +1,123 @@
+.sb-section-models-container {
+	grid-column: main-start-models/main-end-models;
+}
+
+.sb-section-models-nav {
+	border-bottom: 1px solid #e2e2e2;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	justify-items: center;
+	margin-top: 1rem;
+	grid-gap: 0.5rem;
+}
+.sb-section-models-nav-item {
+	padding: 2rem;
+	width: 100%;
+	border-bottom: 2px solid white;
+	text-align: center;
+	cursor: pointer;
+}
+.sb-section-models-nav-item h3 {
+	letter-spacing: 0.1rem;
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+.sb-section-models-nav-item-active {
+	border-bottom: 2px solid orange;
+}
+.sb-section-models-nav-item:hover {
+	border-bottom: 2px solid orange;
+}
+
+.sb-section-models-box {
+	height: min-content;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding-top: 3rem;
+}
+.sb-section-models-item {
+	display: grid;
+	grid-column: 1/-1;
+	grid-template-columns: repeat(3, 1fr);
+}
+.sb-section-models-item-title {
+	grid-column: 1/-1;
+	display: flex;
+	gap: 10px;
+	margin-bottom: 1.5rem;
+}
+
+.sb-section-models-item-title h1 {
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+.sb-section-models-item-title h1:nth-child(2) {
+	font-weight: 400;
+}
+
+.sb-section-models-item-image {
+}
+
+.sb-section-models-item-image-image {
+	box-sizing: border-box;
+	display: block;
+	height: 400px;
+	background-position: center;
+	background-size: cover;
+}
+.sb-section-models-item-table {
+	grid-column: span 2;
+	margin-left: 10%;
+}
+.sb-section-models-item-table-title {
+	grid-column: 1/-1;
+	display: flex;
+	gap: 10px;
+	margin-bottom: 1.5rem;
+}
+
+.sb-section-models-item-table-title h1 {
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+.sb-section-models-item-table table {
+	width: 100%;
+}
+.sb-section-models-item-table td {
+	padding: 1rem;
+}
+.sb-section-models-item-table tr {
+	width: 100%;
+}
+
+.tr-white {
+	background-color: white;
+}
+.tr-grey {
+	background-color: #f5f5f5;
+}
+.td-title {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+	width: 30% !important;
+}
+
+.sb-section-models-description {
+	margin-top: 2rem;
+	background-color: #fbfbfb;
+	padding: 3rem;
+}
+.sb-section-models-description h2 {
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+.sb-section-models-description-text {
+	font-weight: 300;
+}
+.sb-section-models-description-text p {
+	font-size: 0.9rem;
+}

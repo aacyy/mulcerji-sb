@@ -9,8 +9,8 @@
 	font-style: normal;
 	font-size: 16px;
 	line-height: 2;
-	--main-bg: #1b1c1d;
-	--color-main: #d80000;
+	--main-bg: rgb(27, 28, 29);
+	--color-main: #fb7500;
 	--color-title: #6b6c6e;
 	--color-text: #aeaeae;
 	scroll-behavior: smooth !important;
@@ -33,4 +33,14 @@ body {
 		[main-end-section] 2fr [full-end-section];
 	background-color: var(--main-bg);
 	margin-top: -200px;
+}
+
+.sb-section-models {
+	grid-column: full-start-section/full-end-section;
+	background-color: white;
+	display: grid;
+	height: 100vh;
+	grid-template-columns:
+		[full-start-section-models]2fr [main-start-models]repeat(12, 8rem)
+		[main-end-models] 2fr [full-end-section-models];
 }

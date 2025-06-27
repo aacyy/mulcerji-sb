@@ -5,13 +5,12 @@ const SectionOne = ({ refref }) => {
 	return (
 		<>
 			<div className='sb-section-one-content'>
-				<img src='/images/logo_white.png' alt='' />
 				<div className='sb-section-one-title'>
 					<h3>01</h3>
 					<h3>Mulčerji</h3>
 				</div>
 				<div className='sb-section-one-subtitle'>
-					<h1>Mulčer</h1>
+					<h1>Mulčerji</h1>
 					<h1>na daljinsko vodenje</h1>
 				</div>
 				<div className='sb-section-one-sum'>

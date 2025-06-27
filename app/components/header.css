@@ -6,8 +6,8 @@
 	grid-template-columns: repeat(1fr auto 1fr);
 }
 .sb-header-background {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url('/images/mulcer_three.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('/images/9.png');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 
 .sb-header-mid-buttons button:nth-child(1) {
 	border: 1px solid var(--color-main);
-	background-color: rgba(216, 0, 0, 0.3);
+	background-color: rgba(254, 254, 254, 0.105);
 	color: white;
 	transition: all 0.2s ease-in-out;
 }

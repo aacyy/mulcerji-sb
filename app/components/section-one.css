@@ -5,14 +5,13 @@
 	behavior: smooth;
 	margin-top: 5rem;
 	z-index: 100000;
-	margin-bottom: 2rem;
 }
 
 .sb-section-one-content {
 }
 .sb-section-one-img {
-	background: url('/images/mulcer_four.jpg') no-repeat center center/cover;
-	height: 70vh;
+	background: url('/images/9.png') no-repeat center center/cover;
+	height: 60vh;
 	grid-column: span 2;
 }
 .sb-section-one-img img {
@@ -25,7 +24,8 @@
 	padding-right: 25%;
 	grid-column: span 2;
 	display: grid;
-	height: 50vh;
+
+	height: 45vh;
 	align-self: center;
 	position: relative;
 }
@@ -56,10 +56,13 @@
 }
 
 .sb-section-one-subtitle h1 {
-	font-size: 3rem;
+	font-size: 2.2rem;
 	font-weight: 300 !important;
 	color: white;
-	line-height: 4rem;
+	line-height: 3rem;
+}
+.sb-section-one-subtitle > h1:nth-child(1) {
+	font-weight: 600 !important;
 }
 
 .sb-section-one-sum h4 {
