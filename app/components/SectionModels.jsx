@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './section-models.css';
 
 const SectionModels = () => {
-	const imgMain = '/images/7_nobg.png';
+	const imgMain = '/images/7_nobg.jpg';
 	const sbModels = [
 		{
 			modelName: 'Mulčer KM-55',
@@ -15,7 +15,7 @@ const SectionModels = () => {
 			dimenzije: '9200 x 1030 x 630',
 			maxKosnja: 'Maksimalen naklon 40°',
 			teza: '143kg',
-			image: '/images/mulčer_prva.png',
+			image: '/images/mulčer_prva.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo površine do 2000 m². Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene. ',
 			descriptionDown:
@@ -32,7 +32,7 @@ const SectionModels = () => {
 			dimenzije: 'Model 0 tekst',
 			maxKosnja: 'Model 0 tekst',
 			teza: 'Model 0 tekst',
-			image: '/images/mulčer_druga.png',
+			image: '/images/mulčer_druga.jpg',
 			descriptionUp:
 				'Mulčerska kosilnica KM80 je robustnejši model, namenjen zahtevnejšim uporabnikom. V primerjavi z našo klasično 55 cm kosilnico nudi širšo delovno širino, večjo učinkovitost in hitrejše pokrivanje večjih površin. Zahvaljujoč zmogljivemu 452 ccm motorju s 16 konjskimi močmi zlahka opravi z visoko, gosto ter tudi olesenelo travo. Kosilnica brez težav deluje na strmih terenih z naklonom nad 45°, obenem pa omogoča učinkovito košnjo površin, večjih od 2000 m².',
 			descriptionDown:
@@ -48,7 +48,7 @@ const SectionModels = () => {
 			dimenzije: 'Model 0 tekst',
 			maxKosnja: 'Model 0 tekst',
 			teza: 'Model 0 tekst',
-			image: '/images/7.png',
+			image: '/images/7.jpg',
 			descriptionUp:
 				'Mulčerska kosilnica KM100 predstavlja najmočnejši model v naši ponudbi, zasnovan za obvladovanje največjih in najzahtevnejših terenov. Z večjimi dimenzijami kot KM80 omogoča še večjo delovno širino, večjo produktivnost in učinkovitejše pokrivanje površin v krajšem času',
 			descriptionDown:
@@ -64,7 +64,7 @@ const SectionModels = () => {
 			dimenzije: 'Model 0 tekst',
 			maxKosnja: 'Model 0 tekst',
 			teza: 'Model 0 tekst',
-			image: '/images/6.png',
+			image: '/images/6.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica na kolesih s pogonom 4x4 združuje vse ključne karakteristike modela s širino reza 55 cm – zmogljiv 224 ccm bencinski motor z močjo 9 KM (6,62 kW), avtomatsko polnjenje baterije prek alternatorja in nizko porabo goriva do 0,8 litra na uro. ',
 			descriptionDown:
@@ -81,7 +81,7 @@ const SectionModels = () => {
 		dimenzije: '9200 x 1030 x 630',
 		maxKosnja: 'Maksimalen naklon 40°',
 		teza: '143kg',
-		image: '/images/mulčer_prva.png',
+		image: '/images/mulčer_prva.jpg',
 		descriptionUp:
 			'Daljinsko vodena mulčerska kosilnica odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo površine do 2000 m². Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene. ',
 		descriptionDown:

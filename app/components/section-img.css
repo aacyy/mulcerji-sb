@@ -2,7 +2,7 @@
 	grid-column: full-start-section/full-end-section;
 	display: grid;
 	background: linear-gradient(rgba(27, 28, 29, 0.99), rgb(27, 28, 29, 0.7)),
-		/* Gradient overlay */ url('/images/park-bg-two.png'); /* Background image */
+		/* Gradient overlay */ url('/images/park-bg-two.jpg'); /* Background image */
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
