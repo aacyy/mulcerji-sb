@@ -1,6 +1,11 @@
 import React from 'react';
 import './section-img.css';
-import { Container } from 'lucide-react';
+import {
+	Container,
+	Settings2,
+	SlidersHorizontal,
+	UserCheck,
+} from 'lucide-react';
 import { Webhook, Radar, Pyramid, Gamepad } from 'lucide-react';
 
 const SectionImg = () => {
@@ -25,7 +30,7 @@ const SectionImg = () => {
 								<div className='km-number-item-bg'>1</div>
 								<div className='km-numbers-container'>
 									<div className='km-text-mid'>
-										<Webhook strokeWidth={1} size={45} />
+										<Webhook strokeWidth={1.5} size={45} />
 									</div>
 									<div className='km-text-down'>
 										<h2>Rezila iz titana</h2>
@@ -36,7 +41,7 @@ const SectionImg = () => {
 								<div className='km-number-item-bg'>2</div>
 								<div className='km-numbers-container'>
 									<div className='km-text-mid'>
-										<Radar strokeWidth={1} size={45} />
+										<Radar strokeWidth={1.5} size={45} />
 									</div>
 									<div className='km-text-down'>
 										<h2>Izredno natančen</h2>
@@ -47,7 +52,7 @@ const SectionImg = () => {
 								<div className='km-number-item-bg'>3</div>
 								<div className='km-numbers-container'>
 									<div className='km-text-mid'>
-										<Pyramid strokeWidth={1} size={45} />
+										<Pyramid strokeWidth={1.5} size={45} />
 									</div>
 									<div className='km-text-down'>
 										<h2>Primeren za vse naklone</h2>
@@ -58,7 +63,7 @@ const SectionImg = () => {
 								<div className='km-number-item-bg'>4</div>
 								<div className='km-numbers-container'>
 									<div className='km-text-mid'>
-										<Gamepad strokeWidth={1} size={45} />
+										<Gamepad strokeWidth={1.5} size={45} />
 									</div>
 									<div className='km-text-down'>
 										<h2>Daljinsko upravljanje</h2>
@@ -69,10 +74,10 @@ const SectionImg = () => {
 								<div className='km-number-item-bg'>5</div>
 								<div className='km-numbers-container'>
 									<div className='km-text-mid'>
-										<Gamepad strokeWidth={1} size={45} />
+										<Settings2 strokeWidth={1.5} size={45} />
 									</div>
 									<div className='km-text-down'>
-										<h2>Daljinsko upravljanje</h2>
+										<h2>Fleksibilnost nastavitev</h2>
 									</div>
 								</div>
 							</div>
@@ -80,10 +85,10 @@ const SectionImg = () => {
 								<div className='km-number-item-bg'>6</div>
 								<div className='km-numbers-container'>
 									<div className='km-text-mid'>
-										<Gamepad strokeWidth={1} size={45} />
+										<UserCheck strokeWidth={1.5} size={45} />
 									</div>
 									<div className='km-text-down'>
-										<h2>Daljinsko upravljanje</h2>
+										<h2>Enostavna uporaba</h2>
 									</div>
 								</div>
 							</div>

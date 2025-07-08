@@ -17,14 +17,20 @@ const SectionFive = () => {
 			<div class='sb-section-five-title'>
 				<div class='sb-section-one-title'>
 					<h3>05</h3>
-					<h3>Naša galerija</h3>
+					<h3>Galerija</h3>
 				</div>
+			</div>
+			<div className='sb-section-five-subtitle'>
+				<h3>Naši mulčerji ...</h3>
 			</div>
 			<div className='sb-section-five-items'>
 				<div className='sb-section-five-item one'></div>
 				<div className='sb-section-five-item two'></div>
 				<div className='sb-section-five-item three'></div>
 				<div className='sb-section-five-item four'></div>
+			</div>
+			<div className='sb-section-five-moto'>
+				<h3>... za najtežje terene - brez kaplje znoja.</h3>
 			</div>
 		</div>
 	);

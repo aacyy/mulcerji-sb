@@ -34,7 +34,7 @@ const SectionTwo = () => {
 						</div>
 						<div className='sb-section-two-item-text'>
 							{' '}
-							<p>Garancija</p>
+							<p>Garancijo</p>
 						</div>
 					</div>
 					<div className='sb-section-two-item'>

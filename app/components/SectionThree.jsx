@@ -22,7 +22,7 @@ const SectionThree = () => {
 						<Radar strokeWidth={1} size={100} />
 					</div>
 					<div className='km-text-down'>
-						<h2>Izredno natančen</h2>
+						<h2>Izredno natančni</h2>
 					</div>
 				</div>
 				<div className='km-numbers-item'>
@@ -32,7 +32,7 @@ const SectionThree = () => {
 						<Pyramid strokeWidth={1} size={100} />
 					</div>
 					<div className='km-text-down'>
-						<h2>Primeren za vse naklone</h2>
+						<h2>Primerni za vse naklone</h2>
 					</div>
 				</div>
 				<div className='km-numbers-item'>
@@ -42,7 +42,7 @@ const SectionThree = () => {
 						<Gamepad strokeWidth={1} size={100} />
 					</div>
 					<div className='km-text-down'>
-						<h2>Daljinsko upravljanje</h2>
+						<h2>Fleksibilnost nastavitev</h2>
 					</div>
 				</div>
 			</div>

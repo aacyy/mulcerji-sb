@@ -9,7 +9,6 @@
 .sb-section-five-items {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	margin-top: 4rem;
 }
 
 .sb-section-five-subtitle h1 {
@@ -40,4 +39,29 @@
 }
 .four {
 	background-image: url('/images/4.png');
+}
+
+.sb-section-five-subtitle {
+	grid-column: 1/-1;
+	color: white;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.sb-section-five-subtitle h3 {
+	font-size: 1.6rem;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}
+
+.sb-section-five-moto {
+	grid-column: 1/-1;
+	justify-items: end;
+	margin-top: 1rem;
+}
+
+.sb-section-five-moto h3 {
+	font-size: 1.6rem;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
 }

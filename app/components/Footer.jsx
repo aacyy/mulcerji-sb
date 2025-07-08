@@ -13,10 +13,10 @@ const Footer = () => {
 								<h2>Naši modeli</h2>
 							</div>
 							<ul>
-								<li>Model 1</li>
-								<li>Model 2</li>
-								<li>Model 3</li>
-								<li>Model 4</li>
+								<li>Mulčer KM-55</li>
+								<li>Mulčer KM-80</li>
+								<li>Mulčer KM-100</li>
+								<li>Mulčer KM 4x4 </li>
 							</ul>
 						</div>
 						<div className='sb-footer-up-item'>
@@ -24,9 +24,10 @@ const Footer = () => {
 								<h2>Naše storitve</h2>
 							</div>
 							<ul>
-								<li>Storitev 1</li>
-								<li>Storitev 2</li>
-								<li>Storitev 3</li>
+								<li>Servis</li>
+								<li>Prevoz</li>
+								<li>Svetovanje</li>
+								<li>Garancija</li>
 							</ul>
 						</div>
 						<div className='sb-footer-up-item'>

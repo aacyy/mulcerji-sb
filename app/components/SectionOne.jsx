@@ -14,22 +14,17 @@ const SectionOne = ({ refref }) => {
 					<h1>na daljinsko vodenje</h1>
 				</div>
 				<div className='sb-section-one-sum'>
-					<h4>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-						assumenda.
-					</h4>
+					<h4>Pozabite na naporno in nevarno košnjo!</h4>
 				</div>
 				<div className='sb-section-one-text'>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, sit?
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi,
-						repellendus.
+						Mulčerji na daljinsko vodenje so idealna rešitev za košnjo strmih
+						naklonov, nedostopnih terenov in zaraščenih površin. Z zmogljivimi
+						modeli na kolesih ali gosenicah vam zagotavljamo popoln nadzor in
+						brezhibne rezultate. Moč, varnost in udobje, vse v enem stroju -
+						brez kaplje znoja!
 					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero modi
-						officiis et suscipit alias neque iusto nesciunt voluptatum
-						consequatur fuga?
-					</p>
+					<p>Moč, varnost in udobje, vse v enem stroju - brez kaplje znoja!</p>
 				</div>
 			</div>
 			<div className='sb-section-one-img'></div>

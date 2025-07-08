@@ -39,7 +39,7 @@ body {
 	grid-column: full-start-section/full-end-section;
 	background-color: white;
 	display: grid;
-	height: 100vh;
+	padding-bottom: 4rem;
 	grid-template-columns:
 		[full-start-section-models]2fr [main-start-models]repeat(12, 8rem)
 		[main-end-models] 2fr [full-end-section-models];
