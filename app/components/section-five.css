@@ -29,16 +29,16 @@
 	grid-column: span 1;
 }
 .one {
-	background-image: url('/images/mulčer_1.jpg');
+	background-image: url('/images/mulčer_jesen.jpg');
 }
 .two {
-	background-image: url('/images/mulčer_2.jpg');
+	background-image: url('/images/mulčer_daljinsko_vodenje.jpg');
 }
 .three {
-	background-image: url('/images/mulčer_3.jpg');
+	background-image: url('/images/mulčer_4x4_km55.jpg');
 }
 .four {
-	background-image: url('/images/mulčer_55.jpg');
+	background-image: url('/images/mulčer_gozd.jpg');
 }
 
 .sb-section-five-subtitle {

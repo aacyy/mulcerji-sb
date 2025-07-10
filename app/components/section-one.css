@@ -10,7 +10,7 @@
 .sb-section-one-content {
 }
 .sb-section-one-img {
-	background: url('/images/mulčer_1.jpg') no-repeat center center/cover;
+	background: url('/images/mulčer_1_manjsi.jpg') no-repeat center center/cover;
 	height: 60vh;
 	grid-column: span 2;
 }

@@ -16,7 +16,7 @@ const Footer = () => {
 								<li>Mulčer KM-55</li>
 								<li>Mulčer KM-80</li>
 								<li>Mulčer KM-100</li>
-								<li>Mulčer KM 4x4 </li>
+								<li>Mulčer KM-110 </li>
 							</ul>
 						</div>
 						<div className='sb-footer-up-item'>
@@ -35,8 +35,7 @@ const Footer = () => {
 								<h2>Pogoji poslovanja</h2>
 							</div>
 							<ul>
-								<li>Ne povemo</li>
-								<li>EU zakonodaja</li>
+								<li>Splošno</li>
 							</ul>
 						</div>
 					</div>
@@ -51,7 +50,7 @@ const Footer = () => {
 							<div className='sb-footer-mid-item-two-text'>
 								<div>
 									{' '}
-									<h2>info@kuser-mont.com</h2>
+									<h2>info@gruntmaster.si</h2>
 								</div>
 							</div>
 						</div>
