@@ -60,7 +60,7 @@ const Footer = () => {
 							<div className='sb-footer-mid-item-two-text'>
 								<div>
 									{' '}
-									<h2>+386 31 555 666</h2>
+									<h2>+386 31 341 778</h2>
 								</div>
 							</div>
 						</div>

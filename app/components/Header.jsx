@@ -29,11 +29,15 @@ const Header = () => {
 					</div>
 				</div>
 			)}
+
 			<div className='sb-header-mid'>
+				<div className='sb-header-mid-logo'>
+					<img src='/images/logo_white.png' alt='' />
+				</div>
 				<div className='sb-header-mid-text'>
 					<h1>Daljinsko vodeni mulčerji</h1>
-					<h4>+386 555 666</h4>
-					<h4>mulcerji@kuser-mont.com</h4>
+					<h4>+386 31 341 778</h4>
+					<h4>info@gruntmaster.si</h4>
 				</div>
 				<div className='sb-header-mid-buttons'>
 					<button onClick={openModal}>Poglejte posnetek </button>

@@ -15,7 +15,7 @@ const SectionModels = () => {
 			dimenzije: '9200 x 1030 x 630',
 			maxKosnja: 'Maksimalen naklon 40°',
 			teza: '143kg',
-			image: '/images/mulčer_prva.jpg',
+			image: '/images/mulčer_55_goseničar.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo površine do 2000 m². Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene. ',
 			descriptionDown:
@@ -32,7 +32,7 @@ const SectionModels = () => {
 			dimenzije: 'Model 0 tekst',
 			maxKosnja: 'Model 0 tekst',
 			teza: 'Model 0 tekst',
-			image: '/images/mulčer_druga.jpg',
+			image: '/images/mulčer_80.jpg',
 			descriptionUp:
 				'Mulčerska kosilnica KM80 je robustnejši model, namenjen zahtevnejšim uporabnikom. V primerjavi z našo klasično 55 cm kosilnico nudi širšo delovno širino, večjo učinkovitost in hitrejše pokrivanje večjih površin. Zahvaljujoč zmogljivemu 452 ccm motorju s 16 konjskimi močmi zlahka opravi z visoko, gosto ter tudi olesenelo travo. Kosilnica brez težav deluje na strmih terenih z naklonom nad 45°, obenem pa omogoča učinkovito košnjo površin, večjih od 2000 m².',
 			descriptionDown:
@@ -48,11 +48,27 @@ const SectionModels = () => {
 			dimenzije: 'Model 0 tekst',
 			maxKosnja: 'Model 0 tekst',
 			teza: 'Model 0 tekst',
-			image: '/images/7.jpg',
+			image: '/images/mulčer_100.jpg',
 			descriptionUp:
 				'Mulčerska kosilnica KM100 predstavlja najmočnejši model v naši ponudbi, zasnovan za obvladovanje največjih in najzahtevnejših terenov. Z večjimi dimenzijami kot KM80 omogoča še večjo delovno širino, večjo produktivnost in učinkovitejše pokrivanje površin v krajšem času',
 			descriptionDown:
 				'Opremljena je z robustnim 452 ccm motorjem, ki razvije kar 16 konjskih moči – dovolj za košnjo tudi zelo visoke, goste in olesenele trave. Napredni 4-taktni motor zagotavlja zanesljivo delovanje, pri čemer avtomatsko polnjenje baterije prek alternatorja skrbi za nemoteno delo na terenu. S porabo goriva približno 1,5 litra na uro je KM100 idealna izbira za površine nad 3000 m² ter za delo na strmih naklonih nad 45°. Zmogljiv, trpežen in zanesljiv stroj za profesionalno rabo.',
+		},
+		{
+			modelName: 'Mulčer KM-110',
+			modelType: 'Goseničar',
+			motor: 'Model 0 tekst',
+			domet: 'Model 0 tekst',
+			kosnja: 'Model 0 tekst',
+			povrsina: 'Model 0 tekst',
+			dimenzije: 'Model 0 tekst',
+			maxKosnja: 'Model 0 tekst',
+			teza: 'Model 0 tekst',
+			image: '/images/mulčer_110.jpg',
+			descriptionUp:
+				'Daljinsko vodena mulčerska kosilnica na kolesih s pogonom 4x4 združuje vse ključne karakteristike modela s širino reza 55 cm – zmogljiv 224 ccm bencinski motor z močjo 9 KM (6,62 kW), avtomatsko polnjenje baterije prek alternatorja in nizko porabo goriva do 0,8 litra na uro. ',
+			descriptionDown:
+				'Razlika je v podvozju, namesto gosenic ima ta model štirikolesni pogon (4x4), ki omogoča okretnost, večjo hitrost na ravnini in odličen oprijem tudi na bolj razgibanih terenih. Izredna hitrost košnje do 1800m2 v 1 uri. Nizka poraba goriva do 0,8l na uro. ',
 		},
 		{
 			modelName: 'Mulčer KM-55',
@@ -64,7 +80,7 @@ const SectionModels = () => {
 			dimenzije: 'Model 0 tekst',
 			maxKosnja: 'Model 0 tekst',
 			teza: 'Model 0 tekst',
-			image: '/images/6.jpg',
+			image: '/images/mulčer_4x4.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica na kolesih s pogonom 4x4 združuje vse ključne karakteristike modela s širino reza 55 cm – zmogljiv 224 ccm bencinski motor z močjo 9 KM (6,62 kW), avtomatsko polnjenje baterije prek alternatorja in nizko porabo goriva do 0,8 litra na uro. ',
 			descriptionDown:
@@ -81,7 +97,7 @@ const SectionModels = () => {
 		dimenzije: '9200 x 1030 x 630',
 		maxKosnja: 'Maksimalen naklon 40°',
 		teza: '143kg',
-		image: '/images/mulčer_prva.jpg',
+		image: '/images/mulčer_55_goseničar.jpg',
 		descriptionUp:
 			'Daljinsko vodena mulčerska kosilnica odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo površine do 2000 m². Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene. ',
 		descriptionDown:
@@ -140,7 +156,17 @@ const SectionModels = () => {
 					}
 					onClick={() => changeNav(3)}
 				>
-					<h3>KM-55 4X4</h3>
+					<h3>KM-110</h3>
+				</div>
+				<div
+					className={
+						model == 4
+							? 'sb-section-models-nav-item sb-section-models-nav-item-active'
+							: 'sb-section-models-nav-item'
+					}
+					onClick={() => changeNav(4)}
+				>
+					<h3>KM-4X4</h3>
 				</div>
 			</div>
 			<div className='sb-section-models-box'>

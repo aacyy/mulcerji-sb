@@ -16,10 +16,10 @@
 	grid-template-columns: repeat(2, 1fr);
 }
 .sb-section-two-img-first {
-	background: url('/images/mulčer_tretja.jpg') no-repeat center center/cover;
+	background: url('/images/mulčer_2.jpg') no-repeat center center/cover;
 }
 .sb-section-two-img-second {
-	background: url('/images/mulčer_četrta.jpg') no-repeat center center/cover;
+	background: url('/images/mulčer_3.jpg') no-repeat center center/cover;
 }
 
 .sb-section-two-content {
@@ -105,4 +105,88 @@
 }
 .sb-section-two-item-img svg {
 	color: var(--color-main);
+}
+
+@media (max-width: 1350px) {
+	.sb-section-two-img {
+		height: 35vh;
+	}
+	.sb-section-two-subtitle h1 {
+		font-size: 2rem;
+		font-weight: 600;
+		color: white;
+		line-height: 3rem;
+	}
+	.sb-section-two-box {
+		margin-top: 1rem;
+		grid-gap: 1rem;
+	}
+}
+@media (max-width: 1200px) {
+	.sb-section-two-img {
+		height: 30vh;
+	}
+	.sb-section-two-subtitle h1 {
+		font-size: 1.2rem;
+		font-weight: 600;
+		color: white;
+		line-height: 2rem;
+	}
+	.sb-section-two-box {
+		margin-top: 0.5rem;
+		grid-gap: 0.2rem;
+	}
+}
+
+@media (max-width: 1000px) {
+	.sb-section-two-img {
+		height: 40vh;
+		grid-column: 1/-1 !important;
+		padding: 0% !important;
+		margin: 0% !important;
+		order: 1 !important;
+	}
+	.sb-section-two-content {
+		grid-column: 1/-1 !important;
+		margin: 0% !important;
+		align-self: start !important;
+		align-items: start !important;
+		padding: 0% !important;
+	}
+	.sb-section-two-subtitle h1 {
+		font-size: 2rem !important;
+		font-weight: 600;
+		color: white;
+		line-height: 3rem;
+	}
+	.sb-section-two-box {
+		margin-top: 1rem;
+		grid-gap: 1rem;
+		align-self: center !important;
+
+		justify-items: center;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.sb-section-two-subtitle h1 {
+		font-size: 1.4rem !important;
+		font-weight: 600;
+		color: white;
+		line-height: 2rem;
+	}
+	.sb-section-two-box {
+		margin-top: 1rem;
+		grid-gap: 0.5rem;
+		align-self: center !important;
+
+		justify-items: center;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	.sb-section-two-img {
+		height: 180px;
+	}
 }

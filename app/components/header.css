@@ -14,10 +14,19 @@
 	min-height: 110vh;
 	grid-column: 1/-1;
 	display: block;
-	min-width: 100%;
+	width: 100%;
 	position: absolute;
 	top: 0;
 	z-index: -1;
+}
+.sb-header-mid-logo {
+	grid-column: 1/-1;
+	display: none;
+	justify-content: center;
+}
+.sb-header-mid-logo img {
+	height: 80px;
+	z-index: 10000000 !important;
 }
 .sb-header-low {
 	align-self: center;
@@ -207,4 +216,125 @@
 
 .yt-close-button:hover {
 	background-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 1350px) {
+	.right {
+		justify-self: center !important;
+	}
+}
+@media (max-width: 1200px) {
+	.sb-header-low {
+		justify-items: center !important;
+		z-index: 1000;
+		margin-top: -200px;
+		padding-left: 0 !important;
+		text-align: center;
+	}
+	.sb-header-background {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 110vh;
+		grid-column: 1/-1;
+		display: block;
+
+		position: absolute;
+		top: 0;
+		z-index: -1;
+	}
+}
+
+@media (max-width: 1000px) {
+	.right {
+		justify-self: end !important;
+	}
+}
+
+@media (max-width: 800px) {
+	.sb-header {
+		min-height: 80vh !important;
+	}
+	.sb-header-background {
+		min-height: 80vh;
+	}
+	.sb-header-mid {
+		margin-top: 0%;
+	}
+	.center {
+		display: none !important;
+	}
+	.navbar {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+	.right {
+		justify-self: end !important;
+	}
+	.sb-header-mid-text h1 {
+		font-size: 1.4rem;
+	}
+	.sb-header-low h2 {
+		font-size: 1.2rem !important;
+		margin-bottom: 2rem;
+	}
+
+	.sb-header-mid-logo {
+		grid-column: 1/-1;
+		display: flex;
+		justify-content: center;
+		align-self: start;
+	}
+}
+
+@media (max-width: 600px) {
+	.sb-header {
+		min-height: 80vh !important;
+	}
+	.sb-header-background {
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+			url('/images/mulčer_small.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		min-height: 80vh;
+		grid-column: 1/-1;
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		z-index: -1;
+	}
+}
+@media (max-width: 430px) {
+	.navbar {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr) !important;
+
+		justify-items: center !important;
+		justify-content: center !important;
+	}
+	.left {
+		grid-column: 1/-1;
+
+		justify-self: center !important;
+	}
+	.right {
+		margin-top: 1rem;
+		display: grid !important;
+		grid-template-columns: repeat(4, 1fr) !important;
+		justify-content: center !important;
+		grid-column: 1/-1;
+		justify-self: center !important;
+		align-items: center !important;
+		justify-content: center !important;
+		margin: 0 !important;
+		align-items: center;
+	}
+	.right svg {
+		height: 50px;
+		font-size: 1rem;
+	}
+	.left li {
+		font-size: 0.9rem !important;
+	}
 }

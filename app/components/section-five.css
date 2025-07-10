@@ -29,16 +29,16 @@
 	grid-column: span 1;
 }
 .one {
-	background-image: url('/images/6.jpg');
+	background-image: url('/images/mulčer_1.jpg');
 }
 .two {
-	background-image: url('/images/mulčer_prva.jpg');
+	background-image: url('/images/mulčer_2.jpg');
 }
 .three {
-	background-image: url('/images/2.jpg');
+	background-image: url('/images/mulčer_3.jpg');
 }
 .four {
-	background-image: url('/images/4.jpg');
+	background-image: url('/images/mulčer_55.jpg');
 }
 
 .sb-section-five-subtitle {
@@ -54,8 +54,9 @@
 }
 
 .sb-section-five-moto {
+	display: grid;
 	grid-column: 1/-1;
-	justify-items: end;
+	justify-items: end !important;
 	margin-top: 1rem;
 }
 
@@ -64,4 +65,37 @@
 	color: white;
 	font-weight: 500;
 	letter-spacing: 0.1rem;
+}
+
+@media (max-width: 1550px) {
+	.sb-section-five-item {
+		height: 250px;
+	}
+}
+@media (max-width: 1200px) {
+	.sb-section-five-items {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0.5rem;
+	}
+	.sb-section-five-item {
+		height: 350px;
+	}
+}
+@media (max-width: 800px) {
+	.sb-section-five-items {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0.5rem;
+	}
+	.sb-section-five-item {
+		height: 250px;
+	}
+}
+@media (max-width: 600px) {
+	.sb-section-five-items {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 0.5rem;
+	}
+	.sb-section-five-item {
+		height: 300px;
+	}
 }

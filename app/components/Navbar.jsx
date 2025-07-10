@@ -7,7 +7,7 @@ const Navbar = () => {
 		<nav className='navbar'>
 			<ul className='left'>
 				<li>Preglejte modele</li>
-				<li>Tehnične lastnosti</li>
+				<li>Storitve</li>
 				<li>Kontaktirajte nas</li>
 			</ul>
 			<ul className='center'></ul>

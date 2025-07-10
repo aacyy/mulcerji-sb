@@ -27,9 +27,9 @@ export default function Home() {
 		<>
 			<nav className='navbar'>
 				<ul className='left'>
-					<li onClick={scrollToModels}>Preglejte modele</li>
-					<li onClick={scrollToFeatures}>Tehnične lastnosti</li>
-					<li>Kontaktirajte nas</li>
+					<li onClick={scrollToModels}>Modeli</li>
+					<li onClick={scrollToFeatures}>Storitve</li>
+					<li>Kontakt</li>
 				</ul>
 				<ul className='center'>
 					<img src='/images/logo_white.png' alt='' />

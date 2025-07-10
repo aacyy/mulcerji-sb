@@ -10,7 +10,7 @@
 .sb-section-one-content {
 }
 .sb-section-one-img {
-	background: url('/images/4.jpg') no-repeat center center/cover;
+	background: url('/images/mulčer_1.jpg') no-repeat center center/cover;
 	height: 60vh;
 	grid-column: span 2;
 }
@@ -81,12 +81,81 @@
 	font-size: 0.9rem;
 }
 
-.sb-section-one-button {
-	margin-top: 2rem;
-}
 .sb-section-one-button button {
 	padding: 0.8rem 3rem;
 	background-color: transparent;
 	border: 1px solid var(--color-main);
 	color: white;
+}
+@media (max-width: 1200px) {
+	.sb-section-one-img {
+		height: 45vh;
+	}
+	.sb-section-one-subtitle h1 {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+	.sb-section-one-text p {
+		line-height: 1.5rem;
+		color: var(--color-text);
+		font-size: 0.8rem;
+	}
+	.sb-section-one-text {
+		grid-gap: 0.5rem;
+	}
+	.sb-section-one-content {
+		height: 42vh;
+		align-self: start !important;
+	}
+}
+
+@media (max-width: 1000px) {
+	.sb-section-one-img {
+		grid-column: 1/-1 !important;
+		height: 500px !important;
+	}
+	.sb-section-one-content {
+		grid-column: 1/-1 !important;
+		padding-right: 0% !important;
+		height: 40vh !important;
+		margin-bottom: 2rem;
+	}
+	.sb-section-one {
+		margin-bottom: 5rem;
+	}
+
+	.sb-section-one-subtitle h1 {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.sb-section-one-text p {
+		line-height: 2rem;
+		color: var(--color-text);
+		font-size: 0.9rem;
+	}
+}
+@media (max-width: 600px) {
+	.sb-section-one-img {
+		grid-column: 1/-1 !important;
+		height: 350px !important;
+	}
+	.sb-section-one-content {
+		grid-column: 1/-1 !important;
+		padding-right: 0% !important;
+
+		margin-bottom: 2rem;
+	}
+	.sb-section-one {
+		margin-bottom: 5rem;
+	}
+
+	.sb-section-one-subtitle h1 {
+		font-size: 1.4rem;
+		line-height: 2rem;
+	}
+	.sb-section-one-text p {
+		line-height: 1.5rem;
+		color: var(--color-text);
+		font-size: 0.9rem;
+	}
 }
