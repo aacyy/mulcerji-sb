@@ -111,7 +111,7 @@ const SectionModels = () => {
 	];
 	const [filteredData, setFilteredData] = useState({
 		modelName: 'Mulčer KM-55',
-		modelType: '3,290',
+		modelType: 'Goseničar',
 		price: '3,290',
 		motor: 'Bencinski - 9 KM',
 		domet: 'Do 200m',
@@ -207,9 +207,7 @@ const SectionModels = () => {
 					<div className='sb-section-models-item-image'>
 						<div className='sb-section-models-item-title'>
 							<h1>{filteredData.modelName} </h1>
-							<h1>
-								{filteredData.modelType} {model == 0 ? '€' : ''}
-							</h1>
+							<h1>{filteredData.modelType}</h1>
 						</div>
 						<div
 							className='sb-section-models-item-image-image'
@@ -262,7 +260,7 @@ const SectionModels = () => {
 					<div className='sb-models-price'>
 						{' '}
 						<h3>{filteredData.price} &#8364;</h3>
-						<h4>(cena brez ddv)</h4>
+						<h4>( cena z ddv )</h4>
 					</div>
 				</div>
 			</div>
