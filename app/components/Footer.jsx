@@ -24,10 +24,10 @@ const Footer = () => {
 								<h2>Naše storitve</h2>
 							</div>
 							<ul>
-								<li>Servis</li>
-								<li>Prevoz</li>
 								<li>Svetovanje</li>
+								<li>Prevoz</li>
 								<li>Garancija</li>
+								<li>Servis</li>
 							</ul>
 						</div>
 						<div className='sb-footer-up-item'>
@@ -36,6 +36,16 @@ const Footer = () => {
 							</div>
 							<ul>
 								<li>Splošno</li>
+							</ul>
+						</div>
+						<div className='sb-footer-up-item'>
+							<div className='sb-footer-up-item-title'>
+								<h2>Kontakt</h2>
+							</div>
+							<ul>
+								<li>KBR d.o.o</li>
+								<li>Gaji 42d</li>
+								<li>3000 Celje</li>
 							</ul>
 						</div>
 					</div>

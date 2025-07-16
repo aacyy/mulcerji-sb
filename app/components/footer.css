@@ -146,7 +146,9 @@ footer {
 			[main-end-section] 2fr [full-end-section];
 	}
 	.sb-footer-up-items {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+		text-align: center;
 	}
 	.sb-footer-low-items {
 		grid-template-columns: repeat(6, 1fr);

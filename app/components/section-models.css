@@ -6,7 +6,7 @@
 .sb-section-models-nav {
 	border-bottom: 1px solid #e2e2e2;
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(6, 1fr);
 	justify-items: center;
 	margin-top: 1rem;
 	grid-gap: 0.5rem;
@@ -21,7 +21,7 @@
 .sb-section-models-nav-item h3 {
 	letter-spacing: 0.1rem;
 	font-weight: 500;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 .sb-section-models-nav-item-active {
 	border-bottom: 2px solid var(--color-main);
@@ -185,6 +185,25 @@
 	font-weight: 500 !important;
 	font-size: 1rem;
 }
+.sb-models-price-box {
+	margin-top: 1rem;
+	display: flex;
+	grid-column: 1/-1;
+
+	justify-content: end !important;
+}
+.sb-models-price {
+	align-items: center;
+}
+.sb-models-price h3 {
+	color: var(--main-bg);
+	font-size: 2rem;
+	font-weight: 500;
+}
+.sb-models-price h4 {
+	font-size: 1rem;
+	font-weight: 400;
+}
 
 body
 	> section.sb-section-main
@@ -235,14 +254,26 @@ body
 	}
 	.sb-section-models-description-content {
 		padding: 2rem;
-		height: 250px;
+		height: min-content;
+		display: grid;
+		align-items: center;
 	}
+
 	.sb-section-models-description-content p {
 		font-size: 0.9rem;
 		line-height: 1.5rem;
 	}
 	.sb-section-models-item-image-image {
 		height: 300px;
+	}
+	.sb-section-models-nav {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.sb-section-models-item-title {
+		grid-column: 1/-1;
+		display: grid;
+		grid-gap: 0rem;
+		margin-bottom: 1.5rem;
 	}
 }
 @media (max-width: 600px) {

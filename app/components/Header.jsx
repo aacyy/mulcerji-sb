@@ -44,7 +44,7 @@ const Header = () => {
 				</div>
 			</div>
 			<div className='sb-header-low'>
-				<h2>Optimizirani mulčerji za košenje trave</h2>
+				<h2>Optimizirani mulčerji za košnjo trave</h2>
 			</div>
 		</section>
 	);
