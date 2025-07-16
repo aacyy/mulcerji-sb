@@ -1,0 +1,41 @@
+.sb-cookie {
+	grid-column: full-start/full-end;
+	background-color: rgba(27, 28, 29, 0.805);
+	padding: 2rem;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100000000000;
+}
+.sb-cookie p {
+	color: white;
+}
+.sb-cookie button {
+	padding: 0.3rem;
+	font-size: 0.9rem;
+	background-color: var(--color-main);
+	color: white;
+	cursor: pointer;
+}
+.sb-cookie button:hover {
+	opacity: 0.9;
+}
+
+@media (max-width: 800px) {
+	.sb-cookie {
+		display: grid;
+	}
+	.sb-cookie p {
+		font-size: 0.9rem;
+	}
+}
+@media (max-width: 600px) {
+	.sb-cookie p {
+		font-size: 0.9rem;
+	}
+}
