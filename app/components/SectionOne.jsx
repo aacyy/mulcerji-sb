@@ -21,8 +21,7 @@ const SectionOne = ({ refref }) => {
 						Mulčerji na daljinsko vodenje so idealna rešitev za košnjo strmih
 						naklonov, nedostopnih terenov in zaraščenih površin. Z zmogljivimi
 						modeli na kolesih ali gosenicah vam zagotavljamo popoln nadzor in
-						brezhibne rezultate. Moč, varnost in udobje, vse v enem stroju -
-						brez kaplje znoja!
+						brezhibne rezultate.
 					</p>
 					<p>Moč, varnost in udobje, vse v enem stroju - brez kaplje znoja!</p>
 				</div>
