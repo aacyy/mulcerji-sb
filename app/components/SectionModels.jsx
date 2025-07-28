@@ -112,7 +112,7 @@ const SectionModels = () => {
 	const [filteredData, setFilteredData] = useState({
 		modelName: 'Mulčer KM-55',
 		modelType: 'Goseničar',
-		price: '3,290',
+		price: '2,890',
 		motor: 'Bencinski - 9 KM',
 		domet: 'Do 200m',
 		kosnja: 'Daljinsko nastavljiva višina',
