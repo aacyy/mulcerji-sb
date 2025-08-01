@@ -119,7 +119,7 @@ const SectionModels = () => {
 			dimenzije: '920 x 1030 x 630',
 			maxKosnja: 'Maksimalen naklon 40°',
 			teza: '133kg',
-			image: '/images/mulčer_4x4.jpg',
+			image: '/images/mulcer_km55_mod.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica na kolesa združuje vse ključne karakteristike modela KM 55 na gosenice. Razlika je v podvozju, namesto gosenic ima ta model štirikolesni pogon (4x4), ki omogoča okretnost, večjo hitrost na ravnini in odličen oprijem tudi na bolj razgibanih terenih. ',
 			descriptionDown:
