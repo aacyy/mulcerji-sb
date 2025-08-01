@@ -26,7 +26,7 @@ const SectionModels = () => {
 		{
 			modelName: 'Mulčer KM-80',
 			modelType: 'Goseničar',
-			price: '5,250',
+			price: '5,450',
 			motor: 'Bencinski - 16 KM',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
@@ -43,7 +43,7 @@ const SectionModels = () => {
 		{
 			modelName: 'Mulčer KM-100 ',
 			modelType: 'Goseničar',
-			price: '5,590',
+			price: '5,890',
 			motor: 'Bencinski - 16 KM ',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
@@ -94,7 +94,7 @@ const SectionModels = () => {
 		{
 			modelName: 'Mulčer KM-55',
 			modelType: '4x4 kolesa',
-			price: '2,690',
+			price: '3,290',
 			motor: 'Bencinski motor - 9 KM',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
