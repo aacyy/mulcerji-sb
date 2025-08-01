@@ -280,69 +280,69 @@ const SectionModels = () => {
 						<h4>( cena z ddv )</h4>
 					</div>
 				</div>
-				{model === 0  && (
-	
-		<div className='sb-section-models-item'>
-			<div className='sb-section-models-item-image'>
-				<div className='sb-section-models-item-title'>
-					<h1>{sbModels[6].modelName}</h1>
-					<h1>{sbModels[6].modelType}</h1>
-				</div>
-				<div
-					className='sb-section-models-item-image-image'
-					style={{
-						backgroundImage: sbModels
-							? `url(${sbModels[6].image})`
-							: `url(${imgMain})`,
-					}}
-				></div>
-			</div>
-			<div className='sb-section-models-item-table'>
-				<div className='sb-section-models-item-table-title'>
-					<h1>Specifikacije modela</h1>
-				</div>
-				<table>
-					<tbody>
-						<tr className='tr-grey'>
-							<td className='td-title'>Motor</td>
-							<td>{sbModels[6].motor}</td>
-						</tr>
-						<tr className='tr-white'>
-							<td className='td-title'>Domet</td>
-							<td>{sbModels[6].domet}</td>
-						</tr>
-						<tr className='tr-grey'>
-							<td className='td-title'>Košnja</td>
-							<td>{sbModels[6].kosnja}</td>
-						</tr>
-						<tr className='tr-white'>
-							<td className='td-title'>Površina</td>
-							<td>{sbModels[6].povrsina}</td>
-						</tr>
-						<tr className='tr-grey'>
-							<td className='td-title'>Dimenzije (mm)</td>
-							<td>{sbModels[6].dimenzije} (D X Š X V )</td>
-						</tr>
-						<tr className='tr-white'>
-							<td className='td-title'>Naklon</td>
-							<td>{sbModels[6].maxKosnja}</td>
-						</tr>
-						<tr className='tr-grey'>
-							<td className='td-title'>Teža</td>
-							<td>{sbModels[6].teza}</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		<div className='sb-models-price-box'>
-			<div className='sb-models-price'>
-				<h3>{sbModels[6].price} &#8364;</h3>
-				<h4>( cena z ddv )</h4>
-			</div>
-		</div>
-	
-)}
+{model === 0 && (
+          <>
+            <div className="sb-section-models-item">
+              <div className="sb-section-models-item-image">
+                <div className="sb-section-models-item-title">
+                  <h1>{sbModels[6].modelName}</h1>
+                  <h1>{sbModels[6].modelType}</h1>
+                </div>
+                <div
+                  className="sb-section-models-item-image-image"
+                  style={{
+                    backgroundImage: sbModels
+                      ? `url(${sbModels[6].image})`
+                      : `url(${imgMain})`,
+                  }}
+                ></div>
+              </div>
+              <div className="sb-section-models-item-table">
+                <div className="sb-section-models-item-table-title">
+                  <h1>Specifikacije modela</h1>
+                </div>
+                <table>
+                  <tbody>
+                    <tr className="tr-grey">
+                      <td className="td-title">Motor</td>
+                      <td>{sbModels[6].motor}</td>
+                    </tr>
+                    <tr className="tr-white">
+                      <td className="td-title">Domet</td>
+                      <td>{sbModels[6].domet}</td>
+                    </tr>
+                    <tr className="tr-grey">
+                      <td className="td-title">Košnja</td>
+                      <td>{sbModels[6].kosnja}</td>
+                    </tr>
+                    <tr className="tr-white">
+                      <td className="td-title">Površina</td>
+                      <td>{sbModels[6].povrsina}</td>
+                    </tr>
+                    <tr className="tr-grey">
+                      <td className="td-title">Dimenzije (mm)</td>
+                      <td>{sbModels[6].dimenzije} (D X Š X V )</td>
+                    </tr>
+                    <tr className="tr-white">
+                      <td className="td-title">Naklon</td>
+                      <td>{sbModels[6].maxKosnja}</td>
+                    </tr>
+                    <tr className="tr-grey">
+                      <td className="td-title">Teža</td>
+                      <td>{sbModels[6].teza}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div className="sb-models-price-box">
+              <div className="sb-models-price">
+                <h3>{sbModels[6].price} &#8364;</h3>
+                <h4>( cena z ddv )</h4>
+              </div>
+            </div>
+          </>
+        )}
 			</div>
 			<div className='sb-section-models-description'>
 				<div className='sb-section-models-description-up'>
