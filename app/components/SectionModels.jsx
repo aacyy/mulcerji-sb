@@ -281,7 +281,7 @@ const SectionModels = () => {
 					</div>
 				</div>
 				{model === 0  && (
-	<div className='sb-section-models-box'>
+	
 		<div className='sb-section-models-item'>
 			<div className='sb-section-models-item-image'>
 				<div className='sb-section-models-item-title'>
@@ -341,7 +341,7 @@ const SectionModels = () => {
 				<h4>( cena z ddv )</h4>
 			</div>
 		</div>
-	</div>
+	
 )}
 			</div>
 			<div className='sb-section-models-description'>
