@@ -280,7 +280,7 @@ const SectionModels = () => {
 						<h4>( cena z ddv )</h4>
 					</div>
 				</div>
-				{(model === 0 || model === 1) && (
+				{model === 0  && (
 	<div className='sb-section-models-box'>
 		<div className='sb-section-models-item'>
 			<div className='sb-section-models-item-image'>
