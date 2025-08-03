@@ -204,7 +204,13 @@
 	font-size: 1rem;
 	font-weight: 400;
 }
-
+.sb-opomba-wrapper {
+	display: grid;
+	align-content: center;
+}
+.sb-opomba {
+	font-size: 0.8rem;
+}
 body
 	> section.sb-section-main
 	> div.sb-section-models

@@ -1,3 +1,10 @@
+.sb-header-wrapper {
+	display: grid;
+	grid-template-columns:
+		[full-start]2fr [main-start]repeat(12, 9rem)
+		[main-end] 2fr [full-end];
+}
+
 .sb-header {
 	grid-column: full-start/full-end;
 	min-height: 110vh !important;
@@ -6,7 +13,8 @@
 	grid-template-columns: repeat(1fr auto 1fr);
 }
 .sb-header-background {
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
 		url('/images/mulčer_9.jpg');
 	background-size: cover;
 	background-position: center;
@@ -293,7 +301,8 @@
 		min-height: 70vh !important;
 	}
 	.sb-header-background {
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+		background:
+			linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
 			url('/images/mulčer_small.jpg');
 		background-size: cover;
 		background-position: center;

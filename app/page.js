@@ -25,28 +25,30 @@ export default function Home() {
 	};
 	return (
 		<>
-			<nav className='navbar'>
-				<ul className='left'>
-					<li onClick={scrollToModels}>Modeli</li>
-					<li onClick={scrollToFeatures}>Storitve</li>
-					<li>Kontakt</li>
-				</ul>
-				<ul className='center'>
-					<img src='/images/logo_white.png' alt='' />
-				</ul>
-				<ul className='right'>
-					<li>
-						<Facebook strokeWidth={1.5} size={26} />
-					</li>
-					<li>
-						<Instagram strokeWidth={1.5} size={26} />
-					</li>
-					<li>
-						<Youtube strokeWidth={1.5} size={30} />
-					</li>
-				</ul>
-			</nav>
-			<Header />
+			<div className='sb-header-wrapper'>
+				<nav className='navbar'>
+					<ul className='left'>
+						<li onClick={scrollToModels}>Modeli</li>
+						<li onClick={scrollToFeatures}>Storitve</li>
+						<li>Kontakt</li>
+					</ul>
+					<ul className='center'>
+						<img src='/images/logo_white.png' alt='' />
+					</ul>
+					<ul className='right'>
+						<li>
+							<Facebook strokeWidth={1.5} size={26} />
+						</li>
+						<li>
+							<Instagram strokeWidth={1.5} size={26} />
+						</li>
+						<li>
+							<Youtube strokeWidth={1.5} size={30} />
+						</li>
+					</ul>
+				</nav>
+				<Header />
+			</div>
 			<section class='sb-section-main'>
 				<div className='sb-section-one' ref={featuresRef}>
 					<SectionOne />

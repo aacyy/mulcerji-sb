@@ -20,13 +20,6 @@ html {
 	scroll-behavior: smooth !important;
 	--scroll-behavior: smooth !important;
 }
-body {
-	display: grid;
-	grid-template-columns: [full-start]2fr [main-start]repeat(
-			12,
-			9rem
-		) [main-end] 2fr [full-end];
-}
 
 .sb-section-main {
 	grid-column: 1/-1;
@@ -50,18 +43,16 @@ body {
 
 @media (max-width: 1730px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				8rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 8rem)
+			[main-end] 2fr [full-end];
 	}
 }
 @media (max-width: 1550px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				7rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 7rem)
+			[main-end] 2fr [full-end];
 	}
 	.sb-section-main {
 		grid-template-columns:
@@ -76,10 +67,9 @@ body {
 }
 @media (max-width: 1350px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				6.5rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 6.5rem)
+			[main-end] 2fr [full-end];
 	}
 	.sb-section-main {
 		grid-template-columns:
@@ -94,10 +84,9 @@ body {
 }
 @media (max-width: 1200px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				5rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 5rem)
+			[main-end] 2fr [full-end];
 	}
 	.sb-section-main {
 		grid-template-columns:
@@ -112,10 +101,9 @@ body {
 }
 @media (max-width: 1000px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				4rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 4rem)
+			[main-end] 2fr [full-end];
 	}
 	.sb-section-main {
 		grid-template-columns:
@@ -130,10 +118,9 @@ body {
 }
 @media (max-width: 800px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				3rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 3rem)
+			[main-end] 2fr [full-end];
 	}
 	.sb-section-main {
 		grid-template-columns:
@@ -148,10 +135,9 @@ body {
 }
 @media (max-width: 600px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				2rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 2rem)
+			[main-end] 2fr [full-end];
 	}
 	.sb-section-main {
 		grid-template-columns:
@@ -166,10 +152,9 @@ body {
 }
 @media (max-width: 430px) {
 	body {
-		grid-template-columns: [full-start]2fr [main-start]repeat(
-				12,
-				1.7rem
-			) [main-end] 2fr [full-end];
+		grid-template-columns:
+			[full-start]2fr [main-start]repeat(12, 1.7rem)
+			[main-end] 2fr [full-end];
 	}
 	.sb-section-main {
 		grid-template-columns:
