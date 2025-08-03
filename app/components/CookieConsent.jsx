@@ -25,7 +25,7 @@ export default function CookieConsent() {
 		<div className='sb-cookie'>
 			<p>
 				Ta spletna stran uporablja piškotke za izboljšanje uporabniške izkušnje.
-				Z nadaljnjo uporabo spletne strani soglašate z uporabo piškotkov.
+				Z nadaljnjo uporabo spletne strani soglašate z uporabo piškotkov..
 			</p>
 			<button onClick={acceptCookies} className='sb-cookie-button'>
 				Razumem
