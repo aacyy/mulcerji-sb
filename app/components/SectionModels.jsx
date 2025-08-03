@@ -1,5 +1,6 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { client } from '@/sanity/lib/client';
 import './section-models.css';
 
 const SectionModels = () => {
@@ -129,7 +130,7 @@ const SectionModels = () => {
 	const [filteredData, setFilteredData] = useState({
 		modelName: 'Mulčer KM-55',
 		modelType: 'Goseničar',
-		price: '2,890',
+
 		motor: 'Bencinski - 9 KM',
 		domet: 'Do 200m',
 		kosnja: 'Daljinsko nastavljiva višina',
@@ -154,6 +155,38 @@ const SectionModels = () => {
 	const changeNavItem = (newItem) => {
 		setItemTitle(newItem);
 	};
+
+	const [kmdata, setData] = useState();
+
+	useEffect(() => {
+		const getData = async () => {
+			const query = `*[_type == 'Modeli'] {
+                 title, price, descriptionUp,descriptionDown}`;
+			const data = await client.fetch(query);
+			console.log('sanity podatki: ', data);
+			return data;
+		};
+
+		const dataFunction = async () => {
+			const data = await getData();
+			const order = [
+				'km55poceni',
+				'km80',
+				'km100',
+				'km110Standard',
+				'km110Pro',
+				'km4x4',
+				'km55drag',
+			];
+
+			const sortedData = [...data].sort((a, b) => {
+				return order.indexOf(a.title) - order.indexOf(b.title);
+			});
+			console.log('sorted', sortedData);
+			setData(sortedData);
+		};
+		dataFunction();
+	}, []);
 
 	return (
 		<div className='sb-section-models-container'>
@@ -276,73 +309,80 @@ const SectionModels = () => {
 				<div className='sb-models-price-box'>
 					<div className='sb-models-price'>
 						{' '}
-						<h3>{filteredData.price} &#8364;</h3>
+						<h3>
+							{kmdata ? (
+								kmdata[model].price
+							) : (
+								<img src='/images/mulcer_load.gif' />
+							)}{' '}
+							&#8364;
+						</h3>
 						<h4>( cena z ddv )</h4>
 					</div>
 				</div>
-{model === 0 && (
-          <>
-            <div className="sb-section-models-item">
-              <div className="sb-section-models-item-image">
-                <div className="sb-section-models-item-title">
-                  <h1>{sbModels[6].modelName}</h1>
-                  <h1>{sbModels[6].modelType}</h1>
-                </div>
-                <div
-                  className="sb-section-models-item-image-image"
-                  style={{
-                    backgroundImage: sbModels
-                      ? `url(${sbModels[6].image})`
-                      : `url(${imgMain})`,
-                  }}
-                ></div>
-              </div>
-              <div className="sb-section-models-item-table">
-                <div className="sb-section-models-item-table-title">
-                  <h1>Specifikacije modela</h1>
-                </div>
-                <table>
-                  <tbody>
-                    <tr className="tr-grey">
-                      <td className="td-title">Motor</td>
-                      <td>{sbModels[6].motor}</td>
-                    </tr>
-                    <tr className="tr-white">
-                      <td className="td-title">Domet</td>
-                      <td>{sbModels[6].domet}</td>
-                    </tr>
-                    <tr className="tr-grey">
-                      <td className="td-title">Košnja</td>
-                      <td>{sbModels[6].kosnja}</td>
-                    </tr>
-                    <tr className="tr-white">
-                      <td className="td-title">Površina</td>
-                      <td>{sbModels[6].povrsina}</td>
-                    </tr>
-                    <tr className="tr-grey">
-                      <td className="td-title">Dimenzije (mm)</td>
-                      <td>{sbModels[6].dimenzije} (D X Š X V )</td>
-                    </tr>
-                    <tr className="tr-white">
-                      <td className="td-title">Naklon</td>
-                      <td>{sbModels[6].maxKosnja}</td>
-                    </tr>
-                    <tr className="tr-grey">
-                      <td className="td-title">Teža</td>
-                      <td>{sbModels[6].teza}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <div className="sb-models-price-box">
-              <div className="sb-models-price">
-                <h3>{sbModels[6].price} &#8364;</h3>
-                <h4>( cena z ddv )</h4>
-              </div>
-            </div>
-          </>
-        )}
+				{kmdata && model === 0 && (
+					<>
+						<div className='sb-section-models-item'>
+							<div className='sb-section-models-item-image'>
+								<div className='sb-section-models-item-title'>
+									<h1>{sbModels[6].modelName}</h1>
+									<h1>{sbModels[6].modelType}</h1>
+								</div>
+								<div
+									className='sb-section-models-item-image-image'
+									style={{
+										backgroundImage: sbModels
+											? `url(${sbModels[6].image})`
+											: `url(${imgMain})`,
+									}}
+								></div>
+							</div>
+							<div className='sb-section-models-item-table'>
+								<div className='sb-section-models-item-table-title'>
+									<h1>Specifikacije modela</h1>
+								</div>
+								<table>
+									<tbody>
+										<tr className='tr-grey'>
+											<td className='td-title'>Motor</td>
+											<td>{sbModels[6].motor}</td>
+										</tr>
+										<tr className='tr-white'>
+											<td className='td-title'>Domet</td>
+											<td>{sbModels[6].domet}</td>
+										</tr>
+										<tr className='tr-grey'>
+											<td className='td-title'>Košnja</td>
+											<td>{sbModels[6].kosnja}</td>
+										</tr>
+										<tr className='tr-white'>
+											<td className='td-title'>Površina</td>
+											<td>{sbModels[6].povrsina}</td>
+										</tr>
+										<tr className='tr-grey'>
+											<td className='td-title'>Dimenzije (mm)</td>
+											<td>{sbModels[6].dimenzije} (D X Š X V )</td>
+										</tr>
+										<tr className='tr-white'>
+											<td className='td-title'>Naklon</td>
+											<td>{sbModels[6].maxKosnja}</td>
+										</tr>
+										<tr className='tr-grey'>
+											<td className='td-title'>Teža</td>
+											<td>{sbModels[6].teza}</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div className='sb-models-price-box'>
+							<div className='sb-models-price'>
+								<h3>{kmdata[6].price} &#8364;</h3>
+								<h4>( cena z ddv )</h4>
+							</div>
+						</div>
+					</>
+				)}
 			</div>
 			<div className='sb-section-models-description'>
 				<div className='sb-section-models-description-up'>
@@ -384,17 +424,23 @@ const SectionModels = () => {
 							{itemTitle == 0
 								? 'Predstavitev modela'
 								: itemTitle == 1
-								? 'Tehničen opis modela'
-								: 'Več o izbranem modelu'}
+									? 'Tehničen opis modela'
+									: 'Več o izbranem modelu'}
 						</h2>
 					</div>
 					<div className='sb-section-models-description-content'>
 						<p>
-							{itemTitle == 0
-								? filteredData.descriptionUp
-								: itemTitle == 1
-								? filteredData.descriptionDown
-								: ''}
+							{kmdata ? (
+								itemTitle == 0 ? (
+									filteredData.descriptionUp
+								) : itemTitle == 1 ? (
+									filteredData.descriptionDown
+								) : (
+									''
+								)
+							) : (
+								<img src='/images/mulcer_load.gif' />
+							)}
 						</p>
 						<div
 							className={
