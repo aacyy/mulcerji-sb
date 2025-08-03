@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './page.module.css';
 import { Facebook, Instagram, Youtube } from 'lucide-react';
 import './components/header.css';
+import './globals.css';
 import Header from './components/Header';
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
