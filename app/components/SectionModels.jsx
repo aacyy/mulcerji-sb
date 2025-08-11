@@ -14,7 +14,7 @@ const SectionModels = () => {
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
 			povrsina: 'Do 1,500 m2 v eni uri',
-			dimenzije: '920 x 1030 x 630',
+			dimenzije: '950 x 750 x 600',
 			maxKosnja: 'Maksimalen naklon 40°',
 			teza: '143kg',
 			image: '/images/mulčer_55_goseničar.jpg',
@@ -32,7 +32,7 @@ const SectionModels = () => {
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
 			povrsina: 'Do 2,000 m2 v eni uri',
-			dimenzije: '1170 x 1250 x 760',
+			dimenzije: '1260 x 1160 x 720',
 			maxKosnja: 'Maksimalen naklon 45°',
 			teza: '240kg',
 			image: '/images/mulčer_80.jpg',
@@ -49,7 +49,7 @@ const SectionModels = () => {
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
 			povrsina: 'Do 3,600 m2 v eni uri',
-			dimenzije: '1270 x 1450 x 760',
+			dimenzije: '1160 x 1260 x 780',
 			maxKosnja: 'Maksimalen naklon 45°',
 			teza: '265kg',
 			image: '/images/mulčer_100.jpg',
@@ -66,7 +66,7 @@ const SectionModels = () => {
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
 			povrsina: 'Nad 3,000 m2 v eni uri',
-			dimenzije: '1270 x 1450 x 760',
+			dimenzije: '1570 x 1320 x 750',
 			maxKosnja: 'Maksimalen naklon 45°',
 			teza: '265kg',
 			image: '/images/mulčer_110.jpg',
@@ -83,7 +83,7 @@ const SectionModels = () => {
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
 			povrsina: 'Nad 3,000 m2 v eni uri',
-			dimenzije: '1270 x 1450 x 760',
+			dimenzije: '1570 x 1320 x 750',
 			maxKosnja: 'Maksimalen naklon 45°',
 			teza: '330kg',
 			image: '/images/mulcer_110p.jpg',
@@ -98,9 +98,9 @@ const SectionModels = () => {
 			price: '3,290',
 			motor: 'Bencinski motor - 9 KM',
 			domet: 'Do 200m',
-			kosnja: 'Daljinsko nastavljiva višina',
+			kosnja: 'Mehansko nastavljiva višina',
 			povrsina: 'Do 1500 m2 v eni uri',
-			dimenzije: '920 x 1030 x 630',
+			dimenzije: '950 x 670 x 600',
 			maxKosnja: 'Maksimalen naklon 40°',
 			teza: '133kg',
 			image: '/images/mulčer_4x4.jpg',
@@ -117,7 +117,7 @@ const SectionModels = () => {
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
 			povrsina: 'Do 1500 m2 v eni uri',
-			dimenzije: '920 x 1030 x 630',
+			dimenzije: '950 x 750 x 600',
 			maxKosnja: 'Maksimalen naklon 40°',
 			teza: '133kg',
 			image: '/images/mulcer_km55_mod.jpg',
@@ -135,7 +135,7 @@ const SectionModels = () => {
 		domet: 'Do 200m',
 		kosnja: 'Daljinsko nastavljiva višina',
 		povrsina: 'Do 1,500 m2 v eni uri',
-		dimenzije: '920 x 1030 x 630',
+		dimenzije: '950 x 750 x 600',
 		maxKosnja: 'Maksimalen naklon 40°',
 		teza: '143kg',
 		image: '/images/mulčer_55_goseničar.jpg',
@@ -163,7 +163,7 @@ const SectionModels = () => {
 			const query = `*[_type == 'Modeli'] {
                  title, price, descriptionUp,descriptionDown}`;
 			const data = await client.fetch(query);
-			console.log('sanity podatki: ', data);
+		
 			return data;
 		};
 
@@ -182,7 +182,7 @@ const SectionModels = () => {
 			const sortedData = [...data].sort((a, b) => {
 				return order.indexOf(a.title) - order.indexOf(b.title);
 			});
-			console.log('sorted', sortedData);
+		
 			setData(sortedData);
 		};
 		dataFunction();
