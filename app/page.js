@@ -14,6 +14,7 @@ import { useRef } from 'react';
 import SectionFive from './components/SectionFive';
 import SectionImg from './components/SectionImg';
 import SectionModels from './components/SectionModels';
+import Sectionleanpay from './components/Sectionleanpay';
 
 export default function Home() {
 	const featuresRef = useRef(null);
@@ -58,6 +59,7 @@ export default function Home() {
 				<SectionTwo />
 				<SectionImg />
 				<div className='sb-section-models' ref={modelsRef}>
+					<Sectionleanpay />
 					<SectionModels />
 				</div>
 				<SectionFive />

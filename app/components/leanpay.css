@@ -1,0 +1,75 @@
+.sb-leanpay-wrapper {
+	height: 65px;
+
+	grid-column: 1/-1;
+	display: flex;
+	justify-content: center; /* centers horizontally */
+	align-items: center; /* centers vertically */
+	width: 100%; /* takes full width */
+	height: 100%;
+}
+
+.sb-leanpay-image {
+	background-image: url('/images/leanpay_clear.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+
+	height: 60px;
+}
+
+@media (max-width: 1680px) {
+	.sb-leanpay-image {
+		background-image: url('/images/leanpay_1680.png') !important;
+		height: 50px;
+	}
+}
+@media (max-width: 1580px) {
+	.sb-leanpay-image {
+		background-image: url('/images/leanpay_1680.png') !important;
+		height: 45px;
+	}
+}
+@media (max-width: 1400px) {
+	.sb-leanpay-image {
+		background-image: url('/images/leanpay_1680.png') !important;
+		height: 40px;
+	}
+}
+@media (max-width: 1200px) {
+	.sb-leanpay-image {
+		background-image: url('/images/leanpay_1200.png') !important;
+		height: 150px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+@media (max-width: 800px) {
+	.sb-leanpay-image {
+		background-image: url('/images/leanpay_800.png') !important;
+		height: 150px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+@media (max-width: 800px) {
+	.sb-leanpay-image {
+		background-image: url('/images/leanpay_800.png') !important;
+		height: 150px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+@media (max-width: 500px) {
+	.sb-leanpay-image {
+		background-image: url('/images/leanpay_500.png') !important;
+		height: 150px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
