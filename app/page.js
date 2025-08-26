@@ -15,6 +15,7 @@ import SectionFive from './components/SectionFive';
 import SectionImg from './components/SectionImg';
 import SectionModels from './components/SectionModels';
 import Sectionleanpay from './components/Sectionleanpay';
+import { usePathname } from 'next/navigation';
 
 export default function Home() {
 	const featuresRef = useRef(null);
@@ -25,10 +26,12 @@ export default function Home() {
 	const scrollToModels = () => {
 		modelsRef.current?.scrollIntoView({ behavior: 'smooth' });
 	};
+
+	const pathname = usePathname();
 	return (
 		<>
 			<div className='sb-header-wrapper'>
-				<nav className='navbar'>
+				<nav className={pathname == '/leanpay' ? 'navbar-leanpay' : 'navbar'}>
 					<ul className='left'>
 						<li onClick={scrollToModels}>Modeli</li>
 						<li onClick={scrollToFeatures}>Storitve</li>

@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Mail, Smartphone } from 'lucide-react';
 import './footer.css';
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
 	return (
@@ -36,6 +37,17 @@ const Footer = () => {
 							</div>
 							<ul>
 								<li>Splošno</li>
+								<li>
+									<Link
+										style={{
+											textDecoration: 'none',
+											color: 'var(--main-text)',
+										}}
+										href='/leanpay'
+									>
+										Obročna plačila
+									</Link>
+								</li>
 							</ul>
 						</div>
 						<div className='sb-footer-up-item'>

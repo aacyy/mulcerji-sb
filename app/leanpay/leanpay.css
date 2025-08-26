@@ -1,0 +1,60 @@
+.sb-leanpay {
+	grid-column: main-start-section/main-end-section;
+	display: grid;
+	grid-gap: 0.5rem;
+
+	padding-top: 5rem;
+}
+
+.sb-leanpay-banner {
+	background-image: url('/images/leanpay_banner_1200.png');
+	grid-column: 1/-1;
+	height: 300px;
+}
+
+.sb-leanpay h2 {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.sb-leanpay h1 {
+	font-size: 1.6rem;
+	font-weight: 600;
+}
+
+.leanpay-list {
+	margin-top: 3rem;
+}
+.leanpay-button {
+	background-color: var(--main-bg);
+	width: fit-content;
+	padding: 1rem;
+	margin-top: 3rem;
+}
+.leanpay-button:hover {
+	opacity: 0.8;
+}
+body > section > section > div.sb-leanpay-text > a {
+	margin-top: 3rem;
+	font-size: 1.4rem;
+	color: white !important;
+	text-decoration: none;
+}
+.leanpay-button h3 {
+	color: white !important;
+}
+
+.leanpay-youtube {
+	grid-column: 1/-1;
+	align-self: center;
+	justify-self: center;
+	display: grid;
+	width: 50%;
+	margin-top: 3rem;
+	height: 450px;
+
+	background-color: green;
+}
+.leanpay-youtube iframe {
+	width: 100%;
+	height: 100%;
+}
