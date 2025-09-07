@@ -10,13 +10,13 @@ const SectionModels = () => {
 			modelName: 'Mulčer KM-55',
 			modelType: 'Goseničar',
 			price: '2,890',
-			motor: 'Bencinski - 9 KM',
+			motor: '9 konjskih moči',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
 			povrsina: 'Do 1,500 m2 v eni uri',
-			dimenzije: '950 x 750 x 600',
-			maxKosnja: 'Maksimalen naklon 40°',
-			teza: '143kg',
+			dimenzije: '950 / 920 / 560',
+			maxKosnja: '40°',
+			teza: '143kg (+/- 50)',
 			image: '/images/mulčer_55_goseničar.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica KM 55, je odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo manjše površine. Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene. ',
@@ -28,13 +28,13 @@ const SectionModels = () => {
 			modelName: 'Mulčer KM-80',
 			modelType: 'Goseničar',
 			price: '5,450',
-			motor: 'Bencinski - 16 KM',
+			motor: '16 konjskih moči',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
-			povrsina: 'Do 2,000 m2 v eni uri',
-			dimenzije: '1260 x 1160 x 720',
-			maxKosnja: 'Maksimalen naklon 45°',
-			teza: '240kg',
+			povrsina: 'Do 2,500 m2 v eni uri',
+			dimenzije: '1180 / 1700 / 600',
+			maxKosnja: '45°',
+			teza: '240kg (+/- 50)',
 			image: '/images/mulčer_80.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica KM 80 je model namenjen zahtevnejšim uporabnikom. V primerjavi z našo klasično 55 cm kosilnico nudi širšo delovno širino, večjo učinkovitost in hitrejše pokrivanje večjih površin. ',
@@ -45,13 +45,13 @@ const SectionModels = () => {
 			modelName: 'Mulčer KM-100 ',
 			modelType: 'Goseničar',
 			price: '5,890',
-			motor: 'Bencinski - 16 KM ',
+			motor: '16 konjskih moči',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
-			povrsina: 'Do 3,600 m2 v eni uri',
-			dimenzije: '1160 x 1260 x 780',
-			maxKosnja: 'Maksimalen naklon 45°',
-			teza: '265kg',
+			povrsina: 'Do 3,000 m2 v eni uri',
+			dimenzije: '1400 / 1200 / 600',
+			maxKosnja: '45°',
+			teza: '256kg (+/- 50)',
 			image: '/images/mulčer_100.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica KM 100 je močnejši brat modela KM 80. Enaka kakovost, a širši rez za večje delovne izzive. Napreden model za profesionalno uporabo, kjer je ključna učinkovitost pri obdelavi večjih površin.',
@@ -61,14 +61,14 @@ const SectionModels = () => {
 		{
 			modelName: 'Mulčer KM-110 S',
 			modelType: 'Goseničar',
-			price: '7,690',
-			motor: 'Bencinski - 16 KM (5km/h)',
+			price: '7,69',
+			motor: '22 konjskih moči',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
-			povrsina: 'Nad 3,000 m2 v eni uri',
-			dimenzije: '1570 x 1320 x 750',
-			maxKosnja: 'Maksimalen naklon 45°',
-			teza: '265kg',
+			povrsina: 'Do 3,000 m2 v eni uri',
+			dimenzije: '1570 / 1320 / 750',
+			maxKosnja: '45+°',
+			teza: '330kg (+/- 50)',
 			image: '/images/mulčer_110.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica KM 110 predstavlja najmočnejši model v naši ponudbi. Zasnovan je za obvladovanje velikih površin in najzahtevnejših terenov. Njegova izredna moč, vzdržljivost in stabilnost ga postavljajo v vrh ponudbe profesionalnih daljinsko vodenih mulčerjev. ',
@@ -79,13 +79,13 @@ const SectionModels = () => {
 			modelName: 'Mulčer KM-110 P',
 			modelType: 'Goseničar',
 			price: '7,890',
-			motor: 'Bencinski - 22 KM (7km/h)',
+			motor: '22 konjskih moči ',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
-			povrsina: 'Nad 3,000 m2 v eni uri',
-			dimenzije: '1570 x 1320 x 750',
-			maxKosnja: 'Maksimalen naklon 45°',
-			teza: '330kg',
+			povrsina: 'Do 3,000 m2 v eni uri',
+			dimenzije: '1570 / 1320 / 750',
+			maxKosnja: '45+°',
+			teza: '330kg (+/- 50)',
 			image: '/images/mulcer_110p.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica KM 110 predstavlja najmočnejši model v naši ponudbi. Zasnovan je za obvladovanje velikih površin in najzahtevnejših terenov. Njegova izredna moč, vzdržljivost in stabilnost ga postavljajo v vrh ponudbe profesionalnih daljinsko vodenih mulčerjev. ',
@@ -96,13 +96,13 @@ const SectionModels = () => {
 			modelName: 'Mulčer KM-55',
 			modelType: '4x4 kolesa',
 			price: '3,290',
-			motor: 'Bencinski motor - 9 KM',
-			domet: 'Do 200m',
+			motor: '9 konjskih moči',
+			domet: 'Do 2sddsd00m',
 			kosnja: 'Mehansko nastavljiva višina',
-			povrsina: 'Do 1500 m2 v eni uri',
-			dimenzije: '950 x 670 x 600',
-			maxKosnja: 'Maksimalen naklon 40°',
-			teza: '133kg',
+			povrsina: 'Do 1800 m2 v eni uri',
+			dimenzije: '810 / 930 / 470',
+			maxKosnja: '40°',
+			teza: '133kg (+/- 50)',
 			image: '/images/mulčer_4x4.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica na kolesa združuje vse ključne karakteristike modela KM 55 na gosenice. Razlika je v podvozju, namesto gosenic ima ta model štirikolesni pogon (4x4), ki omogoča okretnost, večjo hitrost na ravnini in odličen oprijem tudi na bolj razgibanih terenih. ',
@@ -113,13 +113,13 @@ const SectionModels = () => {
 			modelName: 'Mulčer KM-55',
 			modelType: 'Goseničar',
 			price: '3,290',
-			motor: 'Bencinski motor - 9 KM',
+			motor: '9 konjskih moči',
 			domet: 'Do 200m',
 			kosnja: 'Daljinsko nastavljiva višina',
-			povrsina: 'Do 1500 m2 v eni uri',
-			dimenzije: '950 x 750 x 600',
-			maxKosnja: 'Maksimalen naklon 40°',
-			teza: '133kg',
+			povrsina: 'Do 1,500 m2 v eni uri',
+			dimenzije: '950 / 920 / 560',
+			maxKosnja: '40°',
+			teza: '143kg (+/- 50)',
 			image: '/images/mulcer_km55_mod.jpg',
 			descriptionUp:
 				'Daljinsko vodena mulčerska kosilnica na kolesa združuje vse ključne karakteristike modela KM 55 na gosenice. Razlika je v podvozju, namesto gosenic ima ta model štirikolesni pogon (4x4), ki omogoča okretnost, večjo hitrost na ravnini in odličen oprijem tudi na bolj razgibanih terenih. ',
@@ -131,13 +131,13 @@ const SectionModels = () => {
 		modelName: 'Mulčer KM-55',
 		modelType: 'Goseničar',
 
-		motor: 'Bencinski - 9 KM',
+		motor: '9 konjskih moči',
 		domet: 'Do 200m',
 		kosnja: 'Daljinsko nastavljiva višina',
 		povrsina: 'Do 1,500 m2 v eni uri',
-		dimenzije: '950 x 750 x 600',
-		maxKosnja: 'Maksimalen naklon 40°',
-		teza: '143kg',
+		dimenzije: '950 / 920 / 560',
+		maxKosnja: '40°',
+		teza: '143kg (+/- 50)',
 		image: '/images/mulčer_55_goseničar.jpg',
 		descriptionUp:
 			'Daljinsko vodena mulčerska kosilnica KM 55, je odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo manjše površine. Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene. ',
@@ -163,7 +163,7 @@ const SectionModels = () => {
 			const query = `*[_type == 'Modeli'] {
                  title, price, descriptionUp,descriptionDown}`;
 			const data = await client.fetch(query);
-		
+
 			return data;
 		};
 
@@ -182,7 +182,7 @@ const SectionModels = () => {
 			const sortedData = [...data].sort((a, b) => {
 				return order.indexOf(a.title) - order.indexOf(b.title);
 			});
-		
+
 			setData(sortedData);
 		};
 		dataFunction();
@@ -275,31 +275,31 @@ const SectionModels = () => {
 						<table>
 							<tbody>
 								<tr className='tr-grey'>
-									<td className='td-title'>Motor</td>
+									<td className='td-title'>Moč bencinskega agregata</td>
 									<td>{filteredData.motor}</td>
 								</tr>
 								<tr className='tr-white'>
-									<td className='td-title'>Domet</td>
+									<td className='td-title'>Domet daljinca</td>
 									<td>{filteredData.domet}</td>
 								</tr>
 								<tr className='tr-grey'>
-									<td className='td-title'>Košnja</td>
+									<td className='td-title'>Nastavljiva višina košnje</td>
 									<td>{filteredData.kosnja}</td>
 								</tr>
 								<tr className='tr-white'>
-									<td className='td-title'>Površina</td>
+									<td className='td-title'>Površina košnje</td>
 									<td>{filteredData.povrsina}</td>
 								</tr>
 								<tr className='tr-grey'>
 									<td className='td-title'>Dimenzije (mm)</td>
-									<td>{filteredData.dimenzije} (D X Š X V )</td>
+									<td>{filteredData.dimenzije} (š / d / v )</td>
 								</tr>
 								<tr className='tr-white'>
-									<td className='td-title'>Naklon</td>
+									<td className='td-title'>Maksimalni naklon</td>
 									<td>{filteredData.maxKosnja}</td>
 								</tr>
 								<tr className='tr-grey'>
-									<td className='td-title'>Teža</td>
+									<td className='td-title'>Teža stroja</td>
 									<td>{filteredData.teza}</td>
 								</tr>
 							</tbody>
@@ -344,31 +344,31 @@ const SectionModels = () => {
 								<table>
 									<tbody>
 										<tr className='tr-grey'>
-											<td className='td-title'>Motor</td>
+											<td className='td-title'>Moč bencinskega agregata</td>
 											<td>{sbModels[6].motor}</td>
 										</tr>
 										<tr className='tr-white'>
-											<td className='td-title'>Domet</td>
+											<td className='td-title'>Domet daljinca</td>
 											<td>{sbModels[6].domet}</td>
 										</tr>
 										<tr className='tr-grey'>
-											<td className='td-title'>Košnja</td>
+											<td className='td-title'>Nastavljiva višina košnje</td>
 											<td>{sbModels[6].kosnja}</td>
 										</tr>
 										<tr className='tr-white'>
-											<td className='td-title'>Površina</td>
+											<td className='td-title'>Površina košnje</td>
 											<td>{sbModels[6].povrsina}</td>
 										</tr>
 										<tr className='tr-grey'>
 											<td className='td-title'>Dimenzije (mm)</td>
-											<td>{sbModels[6].dimenzije} (D X Š X V )</td>
+											<td>{sbModels[6].dimenzije} (š / d / v )</td>
 										</tr>
 										<tr className='tr-white'>
-											<td className='td-title'>Naklon</td>
+											<td className='td-title'>Maksimalni naklon</td>
 											<td>{sbModels[6].maxKosnja}</td>
 										</tr>
 										<tr className='tr-grey'>
-											<td className='td-title'>Teža</td>
+											<td className='td-title'>Teža stroja</td>
 											<td>{sbModels[6].teza}</td>
 										</tr>
 									</tbody>
