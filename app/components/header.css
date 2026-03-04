@@ -167,6 +167,8 @@
 
 .right {
 	justify-self: end;
+
+	align-items: center;
 }
 
 .right img {
