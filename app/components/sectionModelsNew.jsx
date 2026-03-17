@@ -340,7 +340,7 @@ const SectionModelsNew = () => {
 
 			<div className='sb-opomba-wrapper'>
 				<p className='sb-opomba'>
-					Opomba: Pridržujemo si pravico do spremembe cen.
+					Opomba: Pridržujemo si pravico do spremembe cen
 				</p>
 			</div>
 		</div>
