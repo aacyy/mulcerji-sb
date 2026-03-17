@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { client } from '../../sanity/lib/client';
 import './section-models.css';
 
-const SectionModels = () => {
+const SectionModelsNew = () => {
 	const imgMain = '/images/7_nobg.jpg';
 
 	const sbModels = [
@@ -347,4 +347,4 @@ const SectionModels = () => {
 	);
 };
 
-export default SectionModels;
+export default SectionModelsNew;
