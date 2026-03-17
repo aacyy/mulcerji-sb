@@ -7,7 +7,7 @@ export default {
 			name: 'title',
 			type: 'string',
 			title: 'Naslov (ne moreš spreminjati ;) )',
-			readOnly: true,
+			readOnly: false,
 		},
 
 		{

@@ -8,6 +8,7 @@ const SectionModels = () => {
 	const sbModels = [
 		{
 			modelName: 'Mulčer KM-55',
+			nav: 'KM 55',
 			modelType: 'Goseničar',
 			price: '2,890',
 			motor: '9 konjskih moči',
@@ -26,6 +27,7 @@ const SectionModels = () => {
 
 		{
 			modelName: 'Mulčer KM-80',
+			nav: 'KM 80',
 			modelType: 'Goseničar',
 			price: '5,450',
 			motor: '16 konjskih moči',
@@ -43,6 +45,25 @@ const SectionModels = () => {
 		},
 		{
 			modelName: 'Mulčer KM-100 ',
+			nav: 'KM 100',
+			modelType: 'Goseničar',
+			price: '5,890',
+			motor: '16 konjskih moči',
+			domet: 'Do 200m',
+			kosnja: 'Daljinsko nastavljiva višina',
+			povrsina: 'Do 3,000 m2 v eni uri',
+			dimenzije: '1430 / 1270 / 600',
+			maxKosnja: '45°',
+			teza: '280kg (+/- 3%)',
+			image: '/images/mulčer_100.jpg',
+			descriptionUp:
+				'Daljinsko vodena mulčerska kosilnica KM 100 je močnejši brat modela KM 80. Enaka kakovost, a širši rez za večje delovne izzive. Napreden model za profesionalno uporabo, kjer je ključna učinkovitost pri obdelavi večjih površin.',
+			descriptionDown:
+				'Širina košnje je 100 cm. Opremljena je z zmogljivim 452 ccm3 motorjem, ki razvije kar 16 konjskih moči (11,8 kW) – dovolj za košnjo tudi zelo visoke, goste in olesenele trave. Napredni 4-taktni motor zagotavlja zanesljivo delovanje, pri čemer avtomatsko polnjenje baterije prek alternatorja skrbi za nemoteno delo na terenu. S porabo goriva približno 1,5 litra na uro je daljinsko vodena mulčerska kosilnica KM 100 idealna izbira za površine nad 3000 m² ter za delo na strmih naklonih nad 45°. Zmogljiv, trpežen in zanesljiv stroj za profesionalno rabo.',
+		},
+		{
+			modelName: 'Mulčer KM-100 Y',
+			nav: 'KM 100Y',
 			modelType: 'Goseničar',
 			price: '5,890',
 			motor: '16 konjskih moči',
@@ -60,6 +81,7 @@ const SectionModels = () => {
 		},
 		{
 			modelName: 'Mulčer KM-110 S',
+			nav: 'KM 110S',
 			modelType: 'Goseničar',
 			price: '7,69',
 			motor: '22 konjskih moči',
@@ -77,6 +99,7 @@ const SectionModels = () => {
 		},
 		{
 			modelName: 'Mulčer KM-110 P',
+			nav: 'KM 110P',
 			modelType: 'Goseničar',
 			price: '7,890',
 			motor: '22 konjskih moči ',
@@ -93,11 +116,30 @@ const SectionModels = () => {
 				'Širina košnje znaša impresivnih 110 cm. Poganja ga robusten 608 cm³ motor, ki razvije kar 22 konjskih moči (16,2 kW) – dovolj moči za brezkompromisno delo na najzahtevnejših terenih. Brez težav premaguje naklone nad 45° in v eni uri pokosi preko 3000 m² površine. Na voljo je v dveh različicah: z največjo hitrostjo 5 km/h ali okrepljenim modelom, ki doseže do 7 km/h. Sistem košnje temelji na dveh rotacijskih oseh s štirimi noži, kar zagotavlja natančno mulčenje goste in visoke vegetacije. Profesionalnost in maksimalna učinkovitost zagotovljena!',
 		},
 		{
+			modelName: 'Mulčer KM-120 Y',
+			nav: 'KM 120Y',
+			modelType: 'Goseničar',
+			price: '5,890',
+			motor: '16 konjskih moči',
+			domet: 'Do 200m',
+			kosnja: 'Daljinsko nastavljiva višina',
+			povrsina: 'Do 3,000 m2 v eni uri',
+			dimenzije: '1430 / 1270 / 600',
+			maxKosnja: '45°',
+			teza: '280kg (+/- 3%)',
+			image: '/images/mulčer_100.jpg',
+			descriptionUp:
+				'Daljinsko vodena mulčerska kosilnica KM 100 je močnejši brat modela KM 80. Enaka kakovost, a širši rez za večje delovne izzive. Napreden model za profesionalno uporabo, kjer je ključna učinkovitost pri obdelavi večjih površin.',
+			descriptionDown:
+				'Širina košnje je 100 cm. Opremljena je z zmogljivim 452 ccm3 motorjem, ki razvije kar 16 konjskih moči (11,8 kW) – dovolj za košnjo tudi zelo visoke, goste in olesenele trave. Napredni 4-taktni motor zagotavlja zanesljivo delovanje, pri čemer avtomatsko polnjenje baterije prek alternatorja skrbi za nemoteno delo na terenu. S porabo goriva približno 1,5 litra na uro je daljinsko vodena mulčerska kosilnica KM 100 idealna izbira za površine nad 3000 m² ter za delo na strmih naklonih nad 45°. Zmogljiv, trpežen in zanesljiv stroj za profesionalno rabo.',
+		},
+		{
 			modelName: 'Mulčer KM-55',
+			nav: 'KM 4X4',
 			modelType: '4x4 kolesa',
 			price: '3,290',
 			motor: '9 konjskih moči',
-			domet: 'Do 2sddsd00m',
+			domet: 'Do 200m',
 			kosnja: 'Mehansko nastavljiva višina',
 			povrsina: 'Do 1800 m2 v eni uri',
 			dimenzije: '840 / 990 / 450',
@@ -111,6 +153,7 @@ const SectionModels = () => {
 		},
 		{
 			modelName: 'Mulčer KM-55',
+			nav: 'KM 55',
 			modelType: 'Goseničar',
 			price: '3,290',
 			motor: '9 konjskih moči',
@@ -129,6 +172,7 @@ const SectionModels = () => {
 	];
 	const [filteredData, setFilteredData] = useState({
 		modelName: 'Mulčer KM-55',
+		nav: 'KM 55',
 		modelType: 'Goseničar',
 
 		motor: '9 konjskih moči',
@@ -191,66 +235,20 @@ const SectionModels = () => {
 	return (
 		<div className='sb-section-models-container'>
 			<div className='sb-section-models-nav'>
-				<div
-					className={
-						model == 0
-							? 'sb-section-models-nav-item sb-section-models-nav-item-active'
-							: 'sb-section-models-nav-item'
-					}
-					onClick={() => changeNav(0)}
-				>
-					<h3>KM-55</h3>
-				</div>
-				<div
-					className={
-						model == 1
-							? 'sb-section-models-nav-item sb-section-models-nav-item-active'
-							: 'sb-section-models-nav-item'
-					}
-					onClick={() => changeNav(1)}
-				>
-					<h3>KM-80</h3>
-				</div>
-				<div
-					className={
-						model == 2
-							? 'sb-section-models-nav-item sb-section-models-nav-item-active'
-							: 'sb-section-models-nav-item'
-					}
-					onClick={() => changeNav(2)}
-				>
-					<h3>KM-100</h3>
-				</div>
-				<div
-					className={
-						model == 3
-							? 'sb-section-models-nav-item sb-section-models-nav-item-active'
-							: 'sb-section-models-nav-item'
-					}
-					onClick={() => changeNav(3)}
-				>
-					<h3>KM-110S</h3>
-				</div>
-				<div
-					className={
-						model == 4
-							? 'sb-section-models-nav-item sb-section-models-nav-item-active'
-							: 'sb-section-models-nav-item'
-					}
-					onClick={() => changeNav(4)}
-				>
-					<h3>KM-110P</h3>
-				</div>
-				<div
-					className={
-						model == 5
-							? 'sb-section-models-nav-item sb-section-models-nav-item-active'
-							: 'sb-section-models-nav-item'
-					}
-					onClick={() => changeNav(5)}
-				>
-					<h3>KM-4X4</h3>
-				</div>
+				{sbModels.map((model, index) => {
+					return (
+						<div
+							className={
+								model == index
+									? 'sb-section-models-nav-item sb-section-models-nav-item-active'
+									: 'sb-section-models-nav-item'
+							}
+							onClick={() => changeNav(index)}
+						>
+							<h3>{model.nav}</h3>
+						</div>
+					);
+				})}
 			</div>
 			<div className='sb-section-models-box'>
 				<div className='sb-section-models-item'>

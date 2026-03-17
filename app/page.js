@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import { useRef } from 'react';
 import SectionFive from './components/SectionFive';
 import SectionImg from './components/SectionImg';
-import SectionModels from './components/SectionModels';
+import SectionModelsNew from './components/SectionModelsNew';
 import Sectionleanpay from './components/Sectionleanpay';
 import { usePathname } from 'next/navigation';
 
@@ -63,7 +63,7 @@ export default function Home() {
 				<SectionImg />
 				<div className='sb-section-models' ref={modelsRef}>
 					<Sectionleanpay />
-					<SectionModels />
+					<SectionModelsNew />
 				</div>
 				<SectionFive />
 			</section>

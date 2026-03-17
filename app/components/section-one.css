@@ -3,21 +3,24 @@
 	grid-column: main-start-section/main-end-section;
 	grid-template-columns: repeat(4, 1fr);
 	behavior: smooth;
-	margin-top: 5rem;
+	padding-bottom: 8rem;
+	padding-top: 8rem;
 	z-index: 100000;
 }
 
 .sb-section-one-content {
+	display: grid;
+	grid-gap: 1.5rem;
 }
 .sb-section-one-img {
-	background: url('/images/mulčer_1_manjsi.jpg') no-repeat center center/cover;
-	height: 60vh;
 	grid-column: span 2;
 }
 .sb-section-one-img img {
 	max-width: 100%;
 	display: block;
-	min-height: 500px;
+	height: 100% !important;
+	border-radius: 1rem;
+	transform-origin: center center !important;
 }
 
 .sb-section-one-content {
@@ -25,7 +28,6 @@
 	grid-column: span 2;
 	display: grid;
 
-	height: 45vh;
 	align-self: center;
 	position: relative;
 }
@@ -56,10 +58,10 @@
 }
 
 .sb-section-one-subtitle h1 {
-	font-size: 2.2rem;
+	font-size: 2.8rem;
 	font-weight: 300 !important;
 	color: white;
-	line-height: 3rem;
+	line-height: 3.5rem;
 }
 .sb-section-one-subtitle > h1:nth-child(1) {
 	font-weight: 600 !important;
@@ -78,7 +80,8 @@
 .sb-section-one-text p {
 	line-height: 2rem;
 	color: var(--color-text);
-	font-size: 0.9rem;
+	font-size: 1.1rem;
+	font-weight: 300;
 }
 
 .sb-section-one-button button {
