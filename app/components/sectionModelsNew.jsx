@@ -56,7 +56,8 @@ const SectionModelsNew = () => {
 			maxKosnja: '40°',
 			teza: '134kg (+/- 3%)',
 			image: '/images/km24v.jpg',
-			descriptionUp: 'V pripravi.',
+			descriptionUp:
+				'KM55X-24V je najsodobnejša in najbolje opremljena kosilnica v naši ponudbi s širino košnje 55 cm. Opremljena je z na novo zasnovanim 24-voltnim sistemom, brezkrtačni motorji pa zagotavljajo izjemno moč, učinkovitost in zanesljivo delovanje tudi pri zahtevnejši košnji. Kosilnica uporablja napredno elektroniko, ki izboljšuje zanesljivost delovanja. Vgrajena avtomatska zaščita in 24-voltni sistem zmanjšujeta segrevanje komponent ter podaljšujeta življenjsko dobo naprave',
 			descriptionDown:
 				'Širina košnje je 55 cm, kar omogoča učinkovito košnjo površin do 2000 m².Kljub manjšim dimenzijam se lahko pohvali z zanesljivim 224 ccm3 bencinskim motorjem, ki razvije 9 KM (6,62 kW) moči, kar je več kot dovolj za učinkovito mulčenje srednje visoke trave. Kosilnica je opremljena z alternatorjem za samodejno polnjenje baterije med delovanjem. Njena poraba je izredno nizka in znaša približno 0,8 litra na uro.',
 		},
@@ -109,9 +110,8 @@ const SectionModelsNew = () => {
 			maxKosnja: '45°',
 			teza: '346kg (+/- 3%)',
 			image: '/images/km100y.jpg',
-			descriptionUp: 'V pripravi.',
-			descriptionDown:
-				'Širina košnje je 100 cm. Opremljena je z zmogljivim 452 ccm3 motorjem, ki razvije kar 16 konjskih moči (11,8 kW) – dovolj za košnjo tudi zelo visoke, goste in olesenele trave. Napredni 4-taktni motor zagotavlja zanesljivo delovanje, pri čemer avtomatsko polnjenje baterije prek alternatorja skrbi za nemoteno delo na terenu. S porabo goriva približno 1,5 litra na uro je daljinsko vodena mulčerska kosilnica KM 100 idealna izbira za površine nad 3000 m² ter za delo na strmih naklonih nad 45°. Zmogljiv, trpežen in zanesljiv stroj za profesionalno rabo.',
+			descriptionUp:
+				'Mulčerska kosilnica z Y-noži je zasnovana za zahtevnejše terene, kjer brez težav obvladuje veje, grmičevje in olesenelo travo. Kljub svoji robustnosti pa omogoča tudi zelo natančno in estetsko košnjo klasične trate. Poganja jo zmogljiv dizelski motor 500 ccm (model 195F), ki razvije kar 15 konjskih moči. Poleg moči ga odlikuje tudi izjemen navor, kar je pri delu na zahtevnih terenih ključnega pomena. Gre za najnovejši model za leto 2026, ki prinaša številne izboljšave: posodobljeno elektroniko, izboljšan sistem hlajenja komponent, elektronski dvig in spust kosišča, dodatno zaščitene vrteče komponente za maksimalno varnost',
 		},
 		{
 			sanityKey: 'km110Standard',
@@ -162,7 +162,9 @@ const SectionModelsNew = () => {
 			maxKosnja: '45°',
 			teza: '356kg (+/- 3%)',
 			image: '/images/km120.jpg',
-			descriptionUp: 'V pripravi.',
+			descriptionUp:
+				'Mulčerska kosilnica z Y-noži je zasnovana za zahtevnejše terene, kjer brez težav obvladuje veje, grmičevje in olesenelo travo. Kljub svoji robustnosti pa omogoča tudi zelo natančno in estetsko košnjo klasične trate. Poganja jo zmogljiv dizelski motor 500 ccm (model 195F), ki razvije kar 15 konjskih moči. Poleg moči ga odlikuje tudi izjemen navor, kar je pri delu na zahtevnih terenih ključnega pomena. Gre za najnovejši model za leto 2026, ki prinaša številne izboljšave: posodobljeno elektroniko, izboljšan sistem hlajenja komponent, elektronski dvig in spust kosišča, dodatno zaščitene vrteče komponente za maksimalno varnost',
+
 			descriptionDown:
 				'Širina košnje je 100 cm. Opremljena je z zmogljivim 452 ccm3 motorjem, ki razvije kar 16 konjskih moči (11,8 kW) – dovolj za košnjo tudi zelo visoke, goste in olesenele trave. Napredni 4-taktni motor zagotavlja zanesljivo delovanje, pri čemer avtomatsko polnjenje baterije prek alternatorja skrbi za nemoteno delo na terenu. S porabo goriva približno 1,5 litra na uro je daljinsko vodena mulčerska kosilnica KM 100 idealna izbira za površine nad 3000 m² ter za delo na strmih naklonih nad 45°. Zmogljiv, trpežen in zanesljiv stroj za profesionalno rabo.',
 		},
