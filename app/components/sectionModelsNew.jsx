@@ -8,27 +8,9 @@ const SectionModelsNew = () => {
 
 	const sbModels = [
 		{
-			sanityKey: 'km55poceni',
-			modelName: 'Mulčer KM-55',
-			nav: 'KM 55 (A)',
-			modelType: 'Goseničar',
-			motor: '9 konjskih moči',
-			domet: 'Do 200m',
-			kosnja: 'Daljinsko nastavljiva višina',
-			povrsina: 'Do 1,500 m2 v eni uri',
-			dimenzije: '940 / 930 / 550',
-			maxKosnja: '40°',
-			teza: '134kg (+/- 3%)',
-			image: '/images/mulčer_55_goseničar.jpg',
-			descriptionUp:
-				'Daljinsko vodena mulčerska kosilnica KM 55, je odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo manjše površine. Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene.',
-			descriptionDown:
-				'Širina košnje je 55 cm, kar omogoča učinkovito košnjo površin do 2000 m².Kljub manjšim dimenzijam se lahko pohvali z zanesljivim 224 ccm3 bencinskim motorjem, ki razvije 9 KM (6,62 kW) moči, kar je več kot dovolj za učinkovito mulčenje srednje visoke trave. Kosilnica je opremljena z alternatorjem za samodejno polnjenje baterije med delovanjem. Njena poraba je izredno nizka in znaša približno 0,8 litra na uro.',
-		},
-		{
 			sanityKey: 'km55drag',
 			modelName: 'Mulčer KM-55',
-			nav: 'KM 55 (B)',
+			nav: 'KM 55',
 			modelType: 'Goseničar',
 			motor: '9 konjskih moči',
 			domet: 'Do 200m',
@@ -109,7 +91,7 @@ const SectionModelsNew = () => {
 			dimenzije: '1560 / 1170 / 820',
 			maxKosnja: '45°',
 			teza: '346kg (+/- 3%)',
-			image: '/images/km100y.jpg',
+			image: '/images/km100y-test.jpg',
 			descriptionUp:
 				'Mulčerska kosilnica z Y-noži je zasnovana za zahtevnejše terene, kjer brez težav obvladuje veje, grmičevje in olesenelo travo. Kljub svoji robustnosti pa omogoča tudi zelo natančno in estetsko košnjo klasične trate. Poganja jo zmogljiv dizelski motor 500 ccm (model 195F), ki razvije kar 15 konjskih moči. Poleg moči ga odlikuje tudi izjemen navor, kar je pri delu na zahtevnih terenih ključnega pomena. Gre za najnovejši model za leto 2026, ki prinaša številne izboljšave: posodobljeno elektroniko, izboljšan sistem hlajenja komponent, elektronski dvig in spust kosišča, dodatno zaščitene vrteče komponente za maksimalno varnost',
 		},
@@ -161,7 +143,7 @@ const SectionModelsNew = () => {
 			dimenzije: '1560 / 1380 / 820',
 			maxKosnja: '45°',
 			teza: '356kg (+/- 3%)',
-			image: '/images/km120.jpg',
+			image: '/images/120y-test.jpg',
 			descriptionUp:
 				'Mulčerska kosilnica z Y-noži je zasnovana za zahtevnejše terene, kjer brez težav obvladuje veje, grmičevje in olesenelo travo. Kljub svoji robustnosti pa omogoča tudi zelo natančno in estetsko košnjo klasične trate. Poganja jo zmogljiv dizelski motor 500 ccm (model 195F), ki razvije kar 15 konjskih moči. Poleg moči ga odlikuje tudi izjemen navor, kar je pri delu na zahtevnih terenih ključnega pomena. Gre za najnovejši model za leto 2026, ki prinaša številne izboljšave: posodobljeno elektroniko, izboljšan sistem hlajenja komponent, elektronski dvig in spust kosišča, dodatno zaščitene vrteče komponente za maksimalno varnost',
 
@@ -342,7 +324,10 @@ const SectionModelsNew = () => {
 
 			<div className='sb-opomba-wrapper'>
 				<p className='sb-opomba'>
-					Opomba: Pridržujemo si pravico do spremembe cen
+					Opomba: Pridržujemo si pravico do spremembe cen.
+					<br />
+					Možne so napake pri vnosu podatkov. Za točne informacije nas
+					pokličite.
 				</p>
 			</div>
 		</div>

@@ -7,6 +7,24 @@ const SectionModels = () => {
 	const imgMain = '/images/7_nobg.jpg';
 	const sbModels = [
 		{
+			sanityKey: 'km55poceni',
+			modelName: 'Mulčer KM-55',
+			nav: 'KM 55 (A)',
+			modelType: 'Goseničar',
+			motor: '9 konjskih moči',
+			domet: 'Do 200m',
+			kosnja: 'Daljinsko nastavljiva višina',
+			povrsina: 'Do 1,500 m2 v eni uri',
+			dimenzije: '940 / 930 / 550',
+			maxKosnja: '40°',
+			teza: '134kg (+/- 3%)',
+			image: '/images/mulčer_55_goseničar.jpg',
+			descriptionUp:
+				'Daljinsko vodena mulčerska kosilnica KM 55, je odlična izbira za manj zahtevna opravila in za uporabnike, ki vzdržujejo manjše površine. Zaradi svoje okretnosti in daljinskega vodenja je idealna za manj dostopne in razgibane terene.',
+			descriptionDown:
+				'Širina košnje je 55 cm, kar omogoča učinkovito košnjo površin do 2000 m².Kljub manjšim dimenzijam se lahko pohvali z zanesljivim 224 ccm3 bencinskim motorjem, ki razvije 9 KM (6,62 kW) moči, kar je več kot dovolj za učinkovito mulčenje srednje visoke trave. Kosilnica je opremljena z alternatorjem za samodejno polnjenje baterije med delovanjem. Njena poraba je izredno nizka in znaša približno 0,8 litra na uro.',
+		},
+		{
 			modelName: 'Mulčer KM-55',
 			nav: 'KM 55',
 			modelType: 'Goseničar',

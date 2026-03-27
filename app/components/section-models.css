@@ -44,7 +44,7 @@
 .sb-section-models-item {
 	display: grid;
 	grid-column: 1/-1;
-
+	grid-gap: 2rem;
 	grid-template-columns: repeat(7, 1fr);
 }
 .sb-section-models-item-title {
@@ -70,7 +70,7 @@
 .sb-section-models-item-image-image {
 	box-sizing: border-box;
 	display: block;
-	height: 450px;
+	height: 500px;
 	background-position: center;
 	background-size: cover;
 	border-radius: 1rem;
