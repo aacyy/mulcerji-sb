@@ -36,7 +36,7 @@ const Header = () => {
 				</div>
 				<div className='sb-header-mid-text'>
 					<h1>Daljinsko vodeni mulčerji</h1>
-					<h4>+386 31 341 778</h4>
+					<h4>+386 31 493 188</h4>
 					<h4>info@gruntmaster.si</h4>
 				</div>
 				<div className='sb-header-mid-buttons'>
