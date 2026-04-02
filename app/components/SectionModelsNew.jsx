@@ -1,6 +1,8 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { client } from '../../sanity/lib/client';
+import { PortableText } from '@portabletext/react';
+import { urlFor } from '@/lib/sanityClient'; // for image
 import './section-models.css';
 
 const SectionModelsNew = () => {
@@ -20,10 +22,6 @@ const SectionModelsNew = () => {
 			maxKosnja: '40°',
 			teza: '134kg (+/- 3%)',
 			image: '/images/mulcer_km55_mod.jpg',
-			descriptionUp:
-				'Daljinsko vodena mulčerska kosilnica na kolesa združuje vse ključne karakteristike modela KM 55 na gosenice. Razlika je v podvozju, namesto gosenic ima ta model štirikolesni pogon (4x4), ki omogoča okretnost, večjo hitrost na ravnini in odličen oprijem tudi na bolj razgibanih terenih.',
-			descriptionDown:
-				'Širina košnje je 55 cm, kar omogoča učinkovito košnjo površin do 2000 m².Kljub manjšim dimenzijam se lahko pohvali z zanesljivim 224 ccm3 bencinskim motorjem, ki razvije 9 KM (6,62 kW) moči, kar je več kot dovolj za učinkovito mulčenje srednje visoke trave. Kosilnica je opremljena z alternatorjem za samodejno polnjenje baterije med delovanjem. Njena poraba je izredno nizka in znaša približno 0,8 litra na uro.',
 		},
 		{
 			sanityKey: 'km55x24v',
@@ -56,10 +54,6 @@ const SectionModelsNew = () => {
 			maxKosnja: '45°',
 			teza: '258kg (+/- 3%)',
 			image: '/images/mulčer_80.jpg',
-			descriptionUp:
-				'Daljinsko vodena mulčerska kosilnica KM 80 je model namenjen zahtevnejšim uporabnikom. V primerjavi z našo klasično 55 cm kosilnico nudi širšo delovno širino, večjo učinkovitost in hitrejše pokrivanje večjih površin.',
-			descriptionDown:
-				'Širina košnje je 80 cm, kar omogoča učinkovito košnjo površin večjih nad 2000 m². Kosilnica brez težav deluje na strmih terenih z naklonom nad 45°. Zahvaljujoč zmogljivemu 452 ccm3 motorju s 16 konjskimi močmi (11,8 kW), zlahka opravi z visoko, gosto ter tudi olesenelo travo.',
 		},
 		{
 			sanityKey: 'km100',
@@ -176,15 +170,23 @@ const SectionModelsNew = () => {
 	const [priceMap, setPriceMap] = useState({});
 
 	const selectedModel = sbModels[selectedIndex];
-	const currentPrice = priceMap[selectedModel.sanityKey];
+	const currentData = priceMap[selectedModel.sanityKey];
 
 	useEffect(() => {
 		const fetchPrices = async () => {
-			const query = `*[_type == 'Modeli']{ title, price }`;
+			const query = `*[_type == 'Modeli']{ title, price, image, descriptionUp, }`;
 			const data = await client.fetch(query);
 			// Build a lookup object: { km55poceni: '2,890', km80: '5,450', ... }
 			const map = Object.fromEntries(
-				data.map((item) => [item.title, item.price]),
+				data.map((item) => [
+					item.title,
+					{
+						price: item.price,
+						image: item.image,
+						descriptionUp: item.descriptionUp,
+						descriptionDown: item.descriptionDown,
+					},
+				]),
 			);
 			setPriceMap(map);
 		};
@@ -192,7 +194,7 @@ const SectionModelsNew = () => {
 	}, []);
 
 	const PriceDisplay = ({ sanityKey }) => {
-		const price = priceMap[sanityKey];
+		const price = priceMap[sanityKey]?.price;
 		return (
 			<div className='sb-models-price-box'>
 				<div className='sb-models-price'>
@@ -244,26 +246,33 @@ const SectionModelsNew = () => {
 		</table>
 	);
 
-	const ModelCard = ({ model }) => (
-		<div className='sb-section-models-item'>
-			<div className='sb-section-models-item-image'>
-				<div className='sb-section-models-item-title'>
-					<h1>{model.modelName}</h1>
-					<h1>{model.modelType}</h1>
+	const ModelCard = ({ model }) => {
+		const sanityImage = priceMap[model.sanityKey]?.image;
+		const imgSrc = sanityImage
+			? urlFor(sanityImage).width(800).url()
+			: model.image;
+
+		return (
+			<div className='sb-section-models-item'>
+				<div className='sb-section-models-item-image'>
+					<div className='sb-section-models-item-title'>
+						<h1>{model.modelName}</h1>
+						<h1>{model.modelType}</h1>
+					</div>
+					<div
+						className='sb-section-models-item-image-image'
+						style={{ backgroundImage: `url(${imgSrc})` }}
+					/>
 				</div>
-				<div
-					className='sb-section-models-item-image-image'
-					style={{ backgroundImage: `url(${model.image})` }}
-				/>
-			</div>
-			<div className='sb-section-models-item-table'>
-				<div className='sb-section-models-item-table-title'>
-					<h1>Specifikacije modela</h1>
+				<div className='sb-section-models-item-table'>
+					<div className='sb-section-models-item-table-title'>
+						<h1>Specifikacije modela</h1>
+					</div>
+					<SpecTable model={model} />
 				</div>
-				<SpecTable model={model} />
 			</div>
-		</div>
-	);
+		);
+	};
 
 	return (
 		<div className='sb-section-models-container'>
@@ -283,13 +292,11 @@ const SectionModelsNew = () => {
 				))}
 			</div>
 
-			{/* Main model card + price */}
 			<div className='sb-section-models-box'>
 				<ModelCard model={selectedModel} />
 				<PriceDisplay sanityKey={selectedModel.sanityKey} />
 			</div>
 
-			{/* Description tabs */}
 			<div className='sb-section-models-description'>
 				<div className='sb-section-models-description-up'>
 					{['Opis modela', 'Več o modelu'].map((label, i) => (
@@ -308,6 +315,17 @@ const SectionModelsNew = () => {
 					<div className='sb-section-models-description-content'>
 						{itemTitle === 0 && <p>{selectedModel.descriptionUp}</p>}
 
+						{itemTitle === 0 && (
+							<>
+								{priceMap[selectedModel.sanityKey]?.descriptionUp ? (
+									<PortableText
+										value={priceMap[selectedModel.sanityKey].descriptionUp}
+									/>
+								) : (
+									<p>{selectedModel.descriptionUp}</p>
+								)}
+							</>
+						)}
 						{itemTitle === 1 && (
 							<div className='sb-section-models-more'>
 								<h4>

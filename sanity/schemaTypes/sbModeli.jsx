@@ -9,21 +9,22 @@ export default {
 			title: 'Naslov (ne moreš spreminjati ;) )',
 			readOnly: false,
 		},
-
 		{
 			name: 'price',
 			type: 'string',
 			title: 'Cena',
 		},
 		{
-			name: 'descriptionUp',
-			type: 'string',
-			title: 'Splošni opis',
+			name: 'image', // 👈 add
+			type: 'image',
+			title: 'Slika modela',
+			options: { hotspot: true },
 		},
 		{
-			name: 'descriptionDown',
-			type: 'string',
-			title: 'Tehnični opis',
+			name: 'descriptionUp',
+			type: 'array', // 👈 change from string to array
+			title: 'Opis',
+			of: [{ type: 'block' }], // 👈 Portable Text
 		},
 	],
 };
