@@ -15,7 +15,7 @@
 	padding: 1rem;
 	width: 100%;
 	background-color: #fafafa;
-	border-radius: 999px;
+	border-radius: 12px;
 	text-align: center;
 	cursor: pointer;
 }
@@ -216,6 +216,7 @@
 	font-weight: 400;
 }
 .sb-opomba-wrapper {
+	margin-top: 2rem;
 	display: grid;
 	align-content: center;
 }
