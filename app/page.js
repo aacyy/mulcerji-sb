@@ -11,11 +11,12 @@ import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
 import Footer from './components/Footer';
 import { useRef } from 'react';
-import SectionFive from './components/SectionFive';
+
 import SectionImg from './components/SectionImg';
 import SectionModelsNew from './components/SectionModelsNew';
 import Sectionleanpay from './components/Sectionleanpay';
 import { usePathname } from 'next/navigation';
+import SectionGalerija from './components/SectionGalerija';
 
 export default function Home() {
 	const featuresRef = useRef(null);
@@ -65,7 +66,7 @@ export default function Home() {
 					<Sectionleanpay />
 					<SectionModelsNew />
 				</div>
-				<SectionFive />
+				<SectionGalerija />
 			</section>
 			<Footer />
 		</>

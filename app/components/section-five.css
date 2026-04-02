@@ -1,14 +1,8 @@
 .sb-section-five {
 	grid-column: main-start-section/main-end-section;
-	display: grid;
 
 	margin-bottom: 7rem;
 	margin-top: 5rem;
-}
-
-.sb-section-five-items {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
 }
 
 .sb-section-five-subtitle h1 {
@@ -20,18 +14,14 @@
 .sb-section-five-subtitle h1:nth-child(1) {
 	font-weight: 600;
 }
-
+.sb-section-five-items {
+}
 .sb-section-five-item {
 	height: 350px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	grid-column: span 1;
-}
-
-.sb-carousel {
-	background-color: red;
-	grid-column: 1/-1;
 }
 
 .sb-section-five-subtitle {
