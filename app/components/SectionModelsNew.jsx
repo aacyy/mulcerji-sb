@@ -305,7 +305,7 @@ const SectionModelsNew = () => {
 								<h4>
 									Če imate dodatna vprašanja o modelu, nas lahko pokličete na:
 								</h4>
-								<h3 className='sb-models-number'>+386 31 341 778</h3>
+								<h3 className='sb-models-number'>+386 31 493 188</h3>
 								<h4>ali nam pišite na:</h4>
 								<h3 className='sb-models-email'>info@gruntmaster.si</h3>
 							</div>
