@@ -28,7 +28,7 @@ const SectionFour = () => {
 				</div>
 				<div class='sb-section-four-subtitle'>
 					<h1>Napredni modeli</h1>
-					<h1>mulčerjev</h1>
+					<h1>kosilnic</h1>
 				</div>
 			</div>
 			<div className='sb-section-four-items-final'>

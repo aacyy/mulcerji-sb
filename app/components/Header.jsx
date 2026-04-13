@@ -35,7 +35,7 @@ const Header = () => {
 					<img src='/images/logo_white.png' alt='' />
 				</div>
 				<div className='sb-header-mid-text'>
-					<h1>Daljinsko vodeni mulčerji</h1>
+					<h1>Daljinsko vodene kosilnice</h1>
 					<h4>+386 31 493 188</h4>
 					<h4>info@gruntmaster.si</h4>
 				</div>
@@ -44,7 +44,7 @@ const Header = () => {
 				</div>
 			</div>
 			<div className='sb-header-low'>
-				<h2>Optimizirani mulčerji za košnjo trave</h2>
+				<h2>Optimizirane kosilnice za košnjo trave</h2>
 			</div>
 		</section>
 	);

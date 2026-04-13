@@ -28,7 +28,7 @@ export default function SectionGalerija() {
 				</div>
 			</div>
 			<div className='sb-section-five-subtitle'>
-				<h3>Naši mulčerji ...</h3>
+				<h3>Naše kosilnice ...</h3>
 			</div>
 			<div className='sb-section-five-items'>
 				<SectionFiveCarousel images={images} />

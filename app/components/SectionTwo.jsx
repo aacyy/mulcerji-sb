@@ -24,7 +24,7 @@ const SectionTwo = () => {
 
 					<div className='sb-section-two-text'>
 						<p>
-							Ob nakupu mulčerja vam zagotavljamo vse storitve potrebne za
+							Ob nakupu kosilnice vam zagotavljamo vse storitve potrebne za
 							brezskrbno delovanje vaše naprave.
 						</p>
 						<p>V našem podjetju vam nudimo:</p>

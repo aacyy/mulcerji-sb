@@ -8,10 +8,10 @@ const SectionOne = ({ refref }) => {
 				<div className='sb-section-one-titles'>
 					<div className='sb-section-one-title'>
 						<h3>01</h3>
-						<h3>Mulčerji</h3>
+						<h3>Kosilnice</h3>
 					</div>
 					<div className='sb-section-one-subtitle'>
-						<h1>Mulčerji</h1>
+						<h1>Kosilnice</h1>
 						<h1>na daljinsko vodenje</h1>
 					</div>
 				</div>
@@ -21,7 +21,7 @@ const SectionOne = ({ refref }) => {
 				</div>
 				<div className='sb-section-one-text'>
 					<p>
-						Mulčerji na daljinsko vodenje so idealna rešitev za košnjo strmih
+						Kosilnice na daljinsko vodenje so idealna rešitev za košnjo strmih
 						naklonov, nedostopnih terenov in zaraščenih površin. Z zmogljivimi
 						modeli na kolesih ali gosenicah vam zagotavljamo popoln nadzor in
 						brezhibne rezultate.

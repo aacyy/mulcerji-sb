@@ -4,7 +4,7 @@ import CookieConsent from './components/CookieConsent';
 
 export const metadata = {
 	title: 'Mulčerji KBR',
-	description: 'Daljinsko vodeni mulčerji za košnjo trave',
+	description: 'Daljinsko vodene kosilnice za košnjo trave',
 };
 
 export default function RootLayout({ children }) {

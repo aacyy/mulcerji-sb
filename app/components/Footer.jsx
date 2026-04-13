@@ -69,27 +69,20 @@ const Footer = () => {
 						</div>
 						<div className='sb-footer-mid-item-two'>
 							<Mail size={24} strokeWidth={1.5} />
-							<div className='sb-footer-mid-item-two-text'>
-								<div>
-									{' '}
-									<h2>info@gruntmaster.si</h2>
-								</div>
-							</div>
+
+							<h2>info@gruntmaster.si</h2>
 						</div>
 						<div className='sb-footer-mid-item-two'>
 							<Smartphone size={24} strokeWidth={1.5} />
-							<div className='sb-footer-mid-item-two-text'>
-								<div>
-									{' '}
-									<h2>+386 31 493 188</h2>
-								</div>
-							</div>
+
+							<h2>+386 31 493 188</h2>
 						</div>
 						<div className='sb-footer-mid-item-social'>
 							<Facebook />
 							<Instagram />
 						</div>
 					</div>
+					<h3>Za ogled je potrebna predhodna najava</h3>
 				</div>
 				<div className='sb-footer-low'>
 					<div className='sb-footer-low-items'>
