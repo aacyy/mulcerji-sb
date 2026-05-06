@@ -243,6 +243,18 @@ body
 	border-radius: 999px;
 }
 
+.sb-models-old-price {
+	text-decoration: line-through;
+	opacity: 0.4;
+	font-size: 1.6rem !important; /* smaller than new price */
+	color: inherit;
+}
+
+.sb-models-new-price {
+	font-size: 1.5rem; /* your existing sizing */
+	color: inherit;
+}
+
 @media (max-width: 1350px) {
 	.sb-section-models-item-image {
 		grid-column: 1/-1;

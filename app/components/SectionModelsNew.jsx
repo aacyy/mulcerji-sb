@@ -67,7 +67,7 @@ const SectionModelsNew = () => {
 			image: '/images/mulčer_100.jpg',
 		},
 		{
-			sanityKey: 'km100Y', // ← update to match your actual Sanity title value
+			sanityKey: 'km100Y',
 			modelName: 'Mulčer KM-100 Y',
 			nav: 'KM 100Y',
 			modelType: 'Goseničar',
@@ -109,7 +109,7 @@ const SectionModelsNew = () => {
 			image: '/images/mulcer_110p.jpg',
 		},
 		{
-			sanityKey: 'km120Y', // ← update to match your actual Sanity title value
+			sanityKey: 'km120Y',
 			modelName: 'Mulčer KM-120 Y',
 			nav: 'KM 120Y',
 			modelType: 'Goseničar',
@@ -148,17 +148,18 @@ const SectionModelsNew = () => {
 
 	useEffect(() => {
 		const fetchPrices = async () => {
-			const query = `*[_type == 'Modeli']{ title, price, image, descriptionUp, }`;
+			const query = `*[_type == 'Modeli']{ title, newPrice, oldPrice, isDiscounted, image, descriptionUp }`;
 			const data = await client.fetch(query);
-			// Build a lookup object: { km55poceni: '2,890', km80: '5,450', ... }
+
 			const map = Object.fromEntries(
 				data.map((item) => [
 					item.title,
 					{
-						price: item.price,
+						newPrice: item.newPrice,
+						oldPrice: item.oldPrice,
+						isDiscounted: item.isDiscounted,
 						image: item.image,
 						descriptionUp: item.descriptionUp,
-						descriptionDown: item.descriptionDown,
 					},
 				]),
 			);
@@ -168,17 +169,26 @@ const SectionModelsNew = () => {
 	}, []);
 
 	const PriceDisplay = ({ sanityKey }) => {
-		const price = priceMap[sanityKey]?.price;
+		const data = priceMap[sanityKey];
+		const { newPrice, oldPrice, isDiscounted } = data ?? {};
+
 		return (
 			<div className='sb-models-price-box'>
 				<div className='sb-models-price'>
-					<h3>
-						{price ? (
-							`${price} €`
-						) : (
-							<LoaderCircleIcon className='animate-spin' />
-						)}
-					</h3>
+					{data ? (
+						<>
+							{isDiscounted ? (
+								<>
+									<h3 className='sb-models-old-price'>{oldPrice} €</h3>
+									<h3 className='sb-models-new-price'>{newPrice} €</h3>
+								</>
+							) : (
+								<h3 className='sb-models-new-price'>{oldPrice} €</h3>
+							)}
+						</>
+					) : (
+						<LoaderCircleIcon className='animate-spin' />
+					)}
 					<h4>( cena z ddv )</h4>
 				</div>
 			</div>

@@ -12,19 +12,34 @@ export default {
 		{
 			name: 'price',
 			type: 'string',
-			title: 'Cena',
+			title: 'Cena (samo za referenco)',
 		},
 		{
-			name: 'image', // 👈 add
+			name: 'newPrice',
+			type: 'string',
+			title: 'Nova cena',
+		},
+		{
+			name: 'oldPrice',
+			type: 'string',
+			title: 'Stara cena',
+		},
+		{
+			name: 'isDiscounted',
+			type: 'boolean',
+			title: 'Popust',
+		},
+		{
+			name: 'image',
 			type: 'image',
 			title: 'Slika modela',
 			options: { hotspot: true },
 		},
 		{
 			name: 'descriptionUp',
-			type: 'array', // 👈 change from string to array
+			type: 'array',
 			title: 'Opis',
-			of: [{ type: 'block' }], // 👈 Portable Text
+			of: [{ type: 'block' }],
 		},
 	],
 };
