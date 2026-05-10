@@ -148,7 +148,10 @@ const SectionModelsNew = () => {
 
 	useEffect(() => {
 		const fetchPrices = async () => {
-			const query = `*[_type == 'Modeli']{ title, newPrice, oldPrice, isDiscounted, image, descriptionUp }`;
+			const query = `*[_type == 'Modeli']{ 
+  title, newPrice, oldPrice, isDiscounted, image, descriptionUp,
+  modelName, modelType, motor, domet, kosnja, povrsina, dimenzije, maxKosnja, teza
+}`;
 			const data = await client.fetch(query);
 
 			const map = Object.fromEntries(
@@ -160,6 +163,15 @@ const SectionModelsNew = () => {
 						isDiscounted: item.isDiscounted,
 						image: item.image,
 						descriptionUp: item.descriptionUp,
+						modelName: item.modelName,
+						modelType: item.modelType,
+						motor: item.motor,
+						domet: item.domet,
+						kosnja: item.kosnja,
+						povrsina: item.povrsina,
+						dimenzije: item.dimenzije,
+						maxKosnja: item.maxKosnja,
+						teza: item.teza,
 					},
 				]),
 			);
@@ -194,6 +206,19 @@ const SectionModelsNew = () => {
 			</div>
 		);
 	};
+
+	const mergeModel = (staticModel, sanityData) => ({
+		...staticModel,
+		modelName: sanityData?.modelName || staticModel.modelName,
+		modelType: sanityData?.modelType || staticModel.modelType,
+		motor: sanityData?.motor || staticModel.motor,
+		domet: sanityData?.domet || staticModel.domet,
+		kosnja: sanityData?.kosnja || staticModel.kosnja,
+		povrsina: sanityData?.povrsina || staticModel.povrsina,
+		dimenzije: sanityData?.dimenzije || staticModel.dimenzije,
+		maxKosnja: sanityData?.maxKosnja || staticModel.maxKosnja,
+		teza: sanityData?.teza || staticModel.teza,
+	});
 
 	const SpecTable = ({ model }) => (
 		<table>
@@ -231,7 +256,10 @@ const SectionModelsNew = () => {
 	);
 
 	const ModelCard = ({ model }) => {
-		const sanityImage = priceMap[model.sanityKey]?.image;
+		const sanityData = priceMap[model.sanityKey];
+		const merged = mergeModel(model, sanityData); // ← merge here
+
+		const sanityImage = sanityData?.image;
 		const imgSrc = sanityImage
 			? urlFor(sanityImage).width(800).url()
 			: model.image;
@@ -240,8 +268,8 @@ const SectionModelsNew = () => {
 			<div className='sb-section-models-item'>
 				<div className='sb-section-models-item-image'>
 					<div className='sb-section-models-item-title'>
-						<h1>{model.modelName}</h1>
-						<h1>{model.modelType}</h1>
+						<h1>{merged.modelName}</h1>
+						<h1>{merged.modelType}</h1>
 					</div>
 					<div
 						className='sb-section-models-item-image-image'
@@ -252,7 +280,7 @@ const SectionModelsNew = () => {
 					<div className='sb-section-models-item-table-title'>
 						<h1>Specifikacije modela</h1>
 					</div>
-					<SpecTable model={model} />
+					<SpecTable model={merged} />
 				</div>
 			</div>
 		);
