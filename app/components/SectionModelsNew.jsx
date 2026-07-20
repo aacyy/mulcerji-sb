@@ -94,7 +94,7 @@ const SectionModelsNew = () => {
 			teza: '406kg (+/- 3%)',
 			image: '/images/mulčer_110.jpg',
 		},
-		{
+		/* 	{
 			sanityKey: 'km110Pro',
 			modelName: 'Mulčer KM-110 P',
 			nav: 'KM 110P',
@@ -107,7 +107,7 @@ const SectionModelsNew = () => {
 			maxKosnja: '45+°',
 			teza: '406kg (+/- 3%)',
 			image: '/images/mulcer_110p.jpg',
-		},
+		}, */
 		{
 			sanityKey: 'km120Y',
 			modelName: 'Mulčer KM-120 Y',
